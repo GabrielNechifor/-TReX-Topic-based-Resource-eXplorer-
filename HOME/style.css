@@ -1,0 +1,150 @@
+.markdown-preview.markdown-preview{
+  background-color: #444
+}
+
+/*----------header part start------*/
+img.logo{
+	width:300px;
+	height: 230px;
+	padding: 10px 0 0 0 ;
+	border:0px;
+	margin-top: -50px;
+	margin-bottom: -70px;
+}
+
+#nav{
+	
+	/*rgba(248,248,248,1.00);*/
+	bottom:#FFFFFF 1px solid;
+	width:auto;
+	margin:0 auto; 
+	height:auto;
+	}
+
+
+
+
+#nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #272323  ;
+  height:auto;
+	
+	
+	}
+#nav ul li{
+
+	float: left;
+	border-right: 2px solid #F8F8F8 ;
+	}
+
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+}
+
+#nav li a:active {
+  color:red;
+}
+
+#nav li a:hover:not(.active) {
+  background-color: #111;
+	
+}
+
+.active {
+  background-color:forestgreen;
+	
+}
+
+/*---navigation bar end-------------*/
+
+.subtitlu{ 
+  background-color:forestgreen;
+  width: auto;
+  border: none;
+  padding:12px;
+  height: auto;
+  margin: 0;
+ font: italic bold 20px Georgia, serif;
+	
+}
+
+/*----------------header part end---*/
+  
+
+
+#body{
+	
+	width:auto;
+	margin:0 auto; 
+	padding:41px 0 0 0;
+	height:auto;
+	
+	}
+
+body{
+	background: url("images/bk.png")  ;
+	background-size:auto;
+	
+	padding:0 0 20px 0;
+	margin:0; 
+	font-family:Arial, Helvetica, sans-serif;  
+	
+	}
+
+
+
+
+.box{
+            font-size: 100%;
+	        display: inline-block;
+  			border: 3px solid forestgreen;
+		    width:270px;
+		    height: 120px;
+			vertical-align:middle;
+			text-align:center;
+			margin-bottom:10px;
+			margin-right:4px;
+	        background-position: center;
+	       
+			}
+
+		
+.boxinside {
+	       font:  bold 20px Georgia, serif;
+    		display: inline-block;
+		    width: 150px;
+		    height: 80px;
+			vertical-align:middle; 
+			text-align:center;
+			position: relative;
+		    top: 30%;    
+			}
+
+
+
+a:link {
+    text-decoration:none;
+	color: black;
+}
+
+
+a:hover {
+    text-decoration: underline; color:darkred;
+}
+
+a:active {
+    text-decoration: underline; color:darkred;
+}
+
+footer{
+	
+}
+
