@@ -358,3 +358,15 @@ input[type=password], select{
     text-align: center;
     padding-right: 50px;
   }
+
+  /*-----------contact class------------------*/
+  .contact{
+    text-align: center;
+  }
+
+  .div_contact{
+    font: italic bold 30px Georgia, serif;
+    width: 600px;
+    margin: auto;
+    border-style: none;
+  }
