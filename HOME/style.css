@@ -32,7 +32,7 @@ img.logo{
 
 #nav{
 	bottom:#FFFFFF 7px solid;
-	width:auto;
+	width:100%;
 	margin:0 auto;
 	height:auto;
   }
@@ -121,10 +121,8 @@ img.logo{
 
 /*----------------header part end---*/
 
-
-
 #container{
-	width:900px;
+	width:65%;
 	margin:0 auto;
 	padding:41px 0 0 0;
 	}
@@ -136,7 +134,7 @@ body{
 	padding:0 0 20px 0;
 	margin:0;
 	font-family:Arial, Helvetica, sans-serif;
-
+  width: 100%;
   }
   
   a{
@@ -167,7 +165,7 @@ body{
   font-size: 100%;
 	display: inline-block;
   border: 3px solid forestgreen;
-	width:270px;
+	width:25%;
 	height: 120px;
 	vertical-align:middle;
 	margin-bottom:10px;
@@ -178,12 +176,12 @@ body{
 .boxinside {
 	font:  bold 20px 'Courier New', Courier, monospace;
   display: inline-block;
-	width: 180px;
-	height: 80px;
-	vertical-align:middle;
+	width: 50%;
+  height: 80px;
+  vertical-align:middle;
 	text-align:center;
 	position: relative;
-	top: 30%;
+	top: 25%;
 			}
 
 #table1{
@@ -363,13 +361,10 @@ input[type=password], select{
     border-top-width: 0px;
    
   }
-
   .sidepanel ul  {
     list-style-image:url('images/bifat.png');
     
   }
-
-
   .sidepanel ul li a {
     padding: 6px 6px 6px 20px;
     text-decoration: none;
@@ -407,11 +402,133 @@ input[type=password], select{
     background-color:#272323;
   }
 
-  #main {
-    transition: margin-left .5s;
-    padding: 16px;
+  .center {
+		max-width:960px;
+		width:100%;
+		margin:0 auto;
   }
+  
+  .form{width:92%;}
 
+  .formRow{
+		width:100%;
+		margin:0 0 1.5em;
+	}
+	.formRow:after{
+		content:"";
+		display:block;
+		clear:both;
+  }
+  
+  .textField{
+		width:100%;
+		overflow:hidden;
+		font-weight:bold;
+		padding:0.5em;
+		border-radius: 2em;
+		box-sizing: border-box; 
+	}
+	input,
+	textarea{
+		display:block;
+		background:#fff;
+		font:1em/1.214em Arial, Helvetica, sans-serif;  /*14px/17px*/
+		width:100%;
+		padding:0.75em 1.5em;
+		margin:0;
+		resize:none;
+		border-radius: 1.5em;
+		box-sizing: border-box;         /* Opera/IE 8+ */
+	}
+	textarea {
+		overflow:auto;
+		height:10.812em;
+	}
+	* +html input,
+	* +html textarea,
+	* +html .textField{
+		width:99%;
+		padding:0;
+  }
+  @media only screen and (max-width:1024px) {
+    
+    .buttons{
+      width: 80px;
+      height: 30px;
+      text-align: center;
+    }
+    img.logo{
+      width: 220px;
+      height: 220px;
+      margin-top: -50px;
+      margin-bottom: -70px;
+    }
+    #nav ul li{
+      border-right: none;
+    }
+    #nav ul li:nth-child(2), li:nth-child(3) , li:nth-child(4){
+      display:none;
+    }
+    .subtitlu{
+      font:  bold 17px Georgia, serif;
+    }
+    #InputSerach{
+      font-size:16px;
+    }
+    .box{
+      height:100px;
+      width: 30%;
+    }
+
+    .boxinside {
+      font-size:18px;
+      height: 60px;
+      width:100%;
+          }
+
+   }
+  
+  @media only screen and (max-width:968px) {
+    
+    .buttons{
+      width: 80px;
+      height: 30px;
+      text-align: center;
+    }
+    img.logo{
+      width: 220px;
+      height: 220px;
+      margin-top: -50px;
+      margin-bottom: -70px;
+    }
+    #nav ul li{
+      border-right: none;
+    }
+    #nav ul li:nth-child(2), li:nth-child(3) , li:nth-child(4){
+      display:none;
+    }
+    .subtitlu{
+      font:  bold 17px Georgia, serif;
+    }
+    #InputSerach{
+      font-size:16px;
+    }
+    .box{
+      height:100px;
+      width: 30%;
+    }
+
+    .boxinside {
+      font-size:18px;
+      height: 60px;
+      width:100%;
+          }
+
+    .sidepanel ul {
+    width: 100%;
+     }
+
+   }
   
   @media only screen and (max-width:768px) {
     
@@ -439,78 +556,60 @@ input[type=password], select{
       font-size:16px;
     }
     .box{
-      width:240px;
       height:100px;
+      width: 40%;
     }
     
     .boxinside {
       font-size:18px;
-      width: 160px;
       height: 60px;
-          }
-
-    #container{
-      width:600px;
-      margin:0 auto;
-      padding:41px 0 0 0;
-            }
+      width:100%;
    }
- 
-
-  @media only screen and (max-width:620px) and  (min-width:400px){
-    
-   .buttons{
-     width: 80px;
-     height: 30px;
-     text-align: center;
-   }
-
-   img.logo{
-     width: 220px;
-     height: 220px;
-     margin-top: -50px;
-    margin-bottom: -70px;
-
-   }
-
-   #nav ul li:nth-child(2), li:nth-child(3) , li:nth-child(4){
-     display:none;
-   }
-
-   #nav ul li:nth-child(5){
-    display: inline block;
   }
+  @media only screen and (max-width:620px) {
+    .buttons{
+      width: 70px;
+      height: 30px;
+      font-size: 13px;
+      text-align: center;
+    }
+    img.logo{
+      width: 220px;
+      height: 220px;
+      margin-top: -50px;
+      margin-bottom: -70px;
+    }
+    #nav ul li:nth-child(2), li:nth-child(3) , li:nth-child(4){
+    display:none;
+    }
+    #nav ul li:nth-child(5){
+     display: inline block;
+   }
+   .subtitlu{
+     font:  bold 13px Georgia, serif; 
+   }
+   #InputSerach{
+     font-size:14px;
+   }
 
-  .subtitlu{
-    font-size: 15px ;
-    
-  }
-
-  #InputSerach{
-    font-size:14px;
-  }
-
-  .box{
+   .box{
      
-    width:220px;
-    height:90px;
+    width: 40%;
+    height:70px;
         }
   
   .boxinside {
-    font-size:17px;
-    width: 160px;
+    font-size:13px;
     height: 60px;
+    width: 100%;
         }
-
-  #container{
-    width:600px;
-    margin:0 auto;
-    padding:41px 0 0 0;
-          }
   
+  .sidepanel ul {
+    width: 100%;
+    }
   }
 
-  @media only screen and (max-width:620px) and (min-width:300px){
+  @media only screen and (max-width:400px) {
     
     .buttons{
       width: 70px;
@@ -536,45 +635,20 @@ input[type=password], select{
    #InputSerach{
      font-size:14px;
    }
-
    .box{
-     
-    width:200px;
+    width: 40%;
     height:70px;
-        }
-  
+  }
   .boxinside {
-    font-size:15px;
-    width: 160px;
+    font-size:13px;
     height: 60px;
+    width: 100%;
         }
+  .sidepanel ul {
+  width: 100%;
+  }
+}
 
-  #container{
-    width:600px;
-    margin:0 auto;
-    padding:41px 0 0 0;
-          }
-        }
-
-   @media only screen and (max-width:320px){
-    .box{
-      width:170px;
-      height:70px;
-      text-align: center;
-      }
-    
-    .boxinside {
-      font-size:15px;
-      width: 160px;
-      height: 60px;
-          }
-  
-    #container{
-      width:600px;
-      margin:0 auto;
-      padding:41px 0 0 0;
-            }
-   }
 
   
 
