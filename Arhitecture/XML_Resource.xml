@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CCS>
+  <domain category="Algorithmics">
+        <subdomain category="Algorithm design">
+             <article category="Numele articolului 1">
+                 <type category="PDF"> 
+                     <typeName>PDF book</typeName>
+                     <name></name>
+                     <authors></authors>
+                     <publisher></publisher>
+                     <publication_date></publication_date>
+                     <ourReview></ourReview>
+                     <resource></resource>
+                 </type>
+             </article>
+        </subdomain>
+        <subdomain category="Algorithmic complexity theory">
+        </subdomain>
+        <subdomain category="Hardness of problems">
+        </subdomain>
+  </domain>
+  <domain category="Software Engineering">
+        <subdomain category="Software requirments">
+        </subdomain>
+        <subdomain category="Software design">
+        </subdomain>
+        <subdomain category="Software construction">
+        </subdomain>
+        <subdomain category="Software testing">
+        </subdomain>
+        <subdomain category="Software maintenance">
+        </subdomain>
+        <subdomain category="Software engineering management">
+        </subdomain>
+  </domain>
+  <domain category="Programming Paradigms">
+        <subdomain category="Functional programming">
+        </subdomain>
+        <subdomain category="Programming oriented object">
+        </subdomain>
+        <subdomain category="Procedural programming">
+        </subdomain>
+  </domain>
+  <domain category="Information security">
+        <subdomain category="Web application security">
+        </subdomain>
+        <subdomain category="Mobile application security">
+        </subdomain>
+        <subdomain category="Network security">
+        </subdomain>
+        <subdomain category="Reverse engineering">
+        </subdomain>
+  </domain>
+  <domain category="Web technologies">
+        <subdomain category="Front-End">
+        </subdomain>
+        <subdomain category="Protocols">
+        </subdomain>
+  </domain>
+  <domain category="Operating Systems">
+        <subdomain category="Windows">
+        </subdomain>
+        <subdomain category="MacOS">
+        </subdomain>
+        <subdomain category="Linux">
+        </subdomain>
+        <subdomain category="Android">
+        </subdomain>
+        <subdomain category="iOS">
+        </subdomain>
+  </domain>
+</CCS>
