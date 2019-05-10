@@ -13,8 +13,8 @@
           <img class="logo" src="images/lo.png" alt="">
           <div class="move_buttons">
            
-            <a href="Log_in.html"><button class="buttons">Log in</button></a>
-            <a href="Sign_up.html"><button class="buttons">Sign up</button></a>
+            <a href="Log_in.php"><button class="buttons">Log in</button></a>
+            <a href="Sign_up.php"><button class="buttons">Sign up</button></a>
          
           </div>
       </header>
@@ -35,8 +35,7 @@
 					</span>
 				</a>
 				</li>
-					<li><a href="Acasa.html"><Strong>Home</Strong></a></li>
-					<li><a href="#news"><Strong>News</Strong></a></li>
+					<li><a href="Acasa.php"><Strong>Home</Strong></a></li>
 					<li><a href="#contact"><Strong>Contact</Strong></a></li>
 				  <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
         </ul>
@@ -45,7 +44,7 @@
 
           <article>
             <section>
-               <div class="subtitlu" align="center"><strong>  <a href="Acasa.html">CCS</a> -> <a href="Programming Paradigms.html">Programming Paradigms</a> -> <a> Object Orientated Programming</a> </strong></div>
+               <div class="subtitlu" align="center"><strong>  <a href="Acasa.php">CCS</a> -> <a href="Programming Paradigms.php">Programming Paradigms</a> -> <a> Object Orientated Programming</a> </strong></div>
 
           </section>
 
@@ -56,7 +55,7 @@
         <ul  class="list">
             <li>
 
-                <p><a href="Carte_Algoritmica.html"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
+                <p><a href="Carte_Algoritmica.php"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
 
                 <p id="obliqueFont"> Design patterns, software engineering, object-orientated programming</p>
 

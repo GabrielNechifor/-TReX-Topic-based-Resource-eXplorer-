@@ -15,8 +15,8 @@
 		    <img class="logo" src="images/lo.png" alt="">
 				<div class="move_buttons">
         
-					<a href="Log_in.html"><button class="buttons">Log in</button></a>
-					<a href="Sign_up.html"><button class="buttons">Sign up</button></a>
+					<a href="Log_in.php"><button class="buttons">Log in</button></a>
+					<a href="Sign_up.php"><button class="buttons">Sign up</button></a>
 			
 				</div>
 		</header>
@@ -26,7 +26,7 @@
 		<nav id="nav">
 				<ul>
 				<li>
-					<a>
+					<a href="Acasa.php">
 					<span>
 						<svg width="30" height="30">
 							<path d="M0,5 30,5" stroke="#fff" stroke-width="2"/>
@@ -36,8 +36,7 @@
 					</span>
 				</a>
 				</li>
-					<li><a href="Acasa.html"><Strong>Home</Strong></a></li>
-					<li><a href="#news"><Strong>News</Strong></a></li>
+					<li><a href="Acasa.php"><Strong>Home</Strong></a></li>
 					<li><a href="#contact"><Strong>Contact</Strong></a></li>
 				  <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
         </ul>
@@ -53,22 +52,22 @@
 <div id="container" align="center">
 
   <div class="box">
-			<a href="Algorithmics.html"><div class="boxinside">Algorithmics</div></a>
+			<a href="Algorithmics.php"><div class="boxinside">Algorithmics</div></a>
 	</div>
 	<div class="box">
-			<a href="Software Engineering.html"><div class="boxinside">Software Enigeering</div></a>
+			<a href="Software Engineering.php"><div class="boxinside">Software Enigeering</div></a>
 	</div>
 	<div class="box">
-			<a href="Programming Paradigms.html"><div class="boxinside">Programming Paradigms</div></a>
+			<a href="Programming Paradigms.php"><div class="boxinside">Programming Paradigms</div></a>
 	</div>
 	<div class="box">
-			<a href="Information Security.html"><div class="boxinside">Information Security</div></a>
+			<a href="Information Security.php"><div class="boxinside">Information Security</div></a>
 	</div>
 	<div class="box">
-			<a href="Web Technologies.html"><div class="boxinside">Web Technologies</div></a>
+			<a href="Web Technologies.php"><div class="boxinside">Web Technologies</div></a>
 	</div>
 	<div class="box">
-     <a href="Operating Systems.html"> <div class="boxinside">Operating Systems</div></a>
+     <a href="Operating Systems.php"> <div class="boxinside">Operating Systems</div></a>
 	</div>
 </div></section>
 <br>

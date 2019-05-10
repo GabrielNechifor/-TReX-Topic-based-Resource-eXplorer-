@@ -34,7 +34,6 @@
       </a>
       </li>
         <li><a href="Acasa.html"><Strong>Home</Strong></a></li>
-        <li><a href="#news"><Strong>News</Strong></a></li>
         <li><a href="#contact"><Strong>Contact</Strong></a></li>
         <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
       </ul>

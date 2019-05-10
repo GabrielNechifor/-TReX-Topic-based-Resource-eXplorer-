@@ -2,9 +2,8 @@
 <html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
-    <title>Software Engineering</title>
+    <title>Web Technologies</title>
     <link href="style.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
     	<header class="header">
@@ -14,9 +13,9 @@
             <a href="Log_in.html"><button class="buttons">Log in</button></a>
             <a href="Sign_up.html"><button class="buttons">Sign up</button></a>
           </div>
-      </header>
-		<nav id="nav">
-				<ul>
+        </header>
+      <nav id="nav">
+          <ul>
           <li>
             <a>
             <span>
@@ -29,24 +28,23 @@
           </a>
           </li>
             <li><a href="Acasa.html"><Strong>Home</Strong></a></li>
-            <li><a href="#news"><Strong>News</Strong></a></li>
             <li><a href="#contact"><Strong>Contact</Strong></a></li>
             <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
-        </ul>
-				</nav>
+          </ul>
+        </nav>
 <article>
   <section>
- <div class="subtitlu" align="center"><strong><a href="Acasa.html">CCS</a> -> <a href="Software Engineering.html">Software Engineering</a></strong></div>
-</section>
-<section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
+  <div class="subtitlu" align="center"><strong><a href="Acasa.html">CCS</a> -> <a href="Web Technologies.html">Web Technologies</a></strong></div>
+  </section>
+  <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <ul>
         <li><a href="Algorithmics.html">Algorithmics</a></li>
-        <li><a class="active" href="Software Engineering.html">Software Engineering</a></li>
+        <li><a href="Software Engineering.html">Software Engineering</a></li>
         <li><a href="Programming Paradigms.html">Programming Paradigm</a></li>
         <li><a href="Information Security.html">Information Security</a></li>
-        <li><a href="Web Technologies.html">Web Technologies</a></li>
+        <li><a class="active" href="Web Technologies.html">Web Technologies</a></li>
         <li><a href="Operating Systems.html">Operating Systems</a></li>
       </ul>
     </div>
@@ -62,26 +60,14 @@
         document.getElementById("mySidepanel").style.width = "0";
       }
     </script>
-</section>
+    </section>
     <div id="container" align="center">
       <div class="box">
-        <a href="#interactiune"><div class="boxinside">Software requirements</div></a>
+			  <a href="#interactiune"><div class="boxinside">Front-End</div></a>
+	    </div>
+	    <div class="box">
+		   	<a href="#interactiune"><div class="boxinside">Protocols</div></a>
       </div>
-	    <div class="box">
-			  <a href="#interactiune"><div class="boxinside">Software design</div></a>
-	    </div>
-	    <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software construction</div></a>
-	    </div>
-      <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software testing</div></a>
-	    </div>
-      <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software maintenance</div></a>
-	    </div>
-      <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software engineering management</div></a>
-	    </div>
     </div>
   </article>
   <footer>

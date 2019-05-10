@@ -2,20 +2,21 @@
 <html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
-    <title>Web Technologies</title>
+    <title>Software Engineering</title>
     <link href="style.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
     	<header class="header">
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
           <img class="logo" src="images/lo.png" alt="">
           <div class="move_buttons">
-            <a href="Log_in.html"><button class="buttons">Log in</button></a>
-            <a href="Sign_up.html"><button class="buttons">Sign up</button></a>
+            <a href="Log_in.php"><button class="buttons">Log in</button></a>
+            <a href="Sign_up.php"><button class="buttons">Sign up</button></a>
           </div>
-        </header>
-      <nav id="nav">
-          <ul>
+      </header>
+		<nav id="nav">
+				<ul>
           <li>
             <a>
             <span>
@@ -27,26 +28,25 @@
             </span>
           </a>
           </li>
-            <li><a href="Acasa.html"><Strong>Home</Strong></a></li>
-            <li><a href="#news"><Strong>News</Strong></a></li>
+            <li><a href="Acasa.php"><Strong>Home</Strong></a></li>
             <li><a href="#contact"><Strong>Contact</Strong></a></li>
             <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
-          </ul>
-        </nav>
+        </ul>
+				</nav>
 <article>
   <section>
-  <div class="subtitlu" align="center"><strong><a href="Acasa.html">CCS</a> -> <a href="Web Technologies.html">Web Technologies</a></strong></div>
-  </section>
-  <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
+ <div class="subtitlu" align="center"><strong><a href="Acasa.php">CCS</a> -> <a href="Software Engineering.php">Software Engineering</a></strong></div>
+</section>
+<section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <ul>
-        <li><a href="Algorithmics.html">Algorithmics</a></li>
-        <li><a href="Software Engineering.html">Software Engineering</a></li>
-        <li><a href="Programming Paradigms.html">Programming Paradigm</a></li>
-        <li><a href="Information Security.html">Information Security</a></li>
-        <li><a class="active" href="Web Technologies.html">Web Technologies</a></li>
-        <li><a href="Operating Systems.html">Operating Systems</a></li>
+        <li><a href="Algorithmics.php">Algorithmics</a></li>
+        <li><a class="active" href="Software Engineering.php">Software Engineering</a></li>
+        <li><a href="Programming Paradigms.php">Programming Paradigm</a></li>
+        <li><a href="Information Security.php">Information Security</a></li>
+        <li><a href="Web Technologies.php">Web Technologies</a></li>
+        <li><a href="Operating Systems.php">Operating Systems</a></li>
       </ul>
     </div>
     <div>
@@ -61,14 +61,26 @@
         document.getElementById("mySidepanel").style.width = "0";
       }
     </script>
-    </section>
+</section>
     <div id="container" align="center">
       <div class="box">
-			  <a href="#interactiune"><div class="boxinside">Front-End</div></a>
+        <a href="#interactiune"><div class="boxinside">Software requirements</div></a>
+      </div>
+	    <div class="box">
+			  <a href="#interactiune"><div class="boxinside">Software design</div></a>
 	    </div>
 	    <div class="box">
-		   	<a href="#interactiune"><div class="boxinside">Protocols</div></a>
-      </div>
+		  	<a href="#interactiune"><div class="boxinside">Software construction</div></a>
+	    </div>
+      <div class="box">
+		  	<a href="#interactiune"><div class="boxinside">Software testing</div></a>
+	    </div>
+      <div class="box">
+		  	<a href="#interactiune"><div class="boxinside">Software maintenance</div></a>
+	    </div>
+      <div class="box">
+		  	<a href="#interactiune"><div class="boxinside">Software engineering management</div></a>
+	    </div>
     </div>
   </article>
   <footer>
