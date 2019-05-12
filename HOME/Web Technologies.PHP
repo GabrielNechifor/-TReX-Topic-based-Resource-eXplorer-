@@ -1,3 +1,6 @@
+<?php
+include_once 'log_in_buttons.php'
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
   <head>
@@ -10,8 +13,7 @@
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
           <img class="logo" src="images/lo.png" alt="">
           <div class="move_buttons">
-            <a href="Log_in.html"><button class="buttons">Log in</button></a>
-            <a href="Sign_up.html"><button class="buttons">Sign up</button></a>
+          <?php echo $output; ?>
           </div>
         </header>
       <nav id="nav">
@@ -34,18 +36,18 @@
         </nav>
 <article>
   <section>
-  <div class="subtitlu" align="center"><strong><a href="Acasa.html">CCS</a> -> <a href="Web Technologies.html">Web Technologies</a></strong></div>
+  <div class="subtitlu" align="center"><strong><a href="index.html">CCS</a> -> <a href="Web Technologies.php">Web Technologies</a></strong></div>
   </section>
   <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <ul>
-        <li><a href="Algorithmics.html">Algorithmics</a></li>
-        <li><a href="Software Engineering.html">Software Engineering</a></li>
-        <li><a href="Programming Paradigms.html">Programming Paradigm</a></li>
-        <li><a href="Information Security.html">Information Security</a></li>
-        <li><a class="active" href="Web Technologies.html">Web Technologies</a></li>
-        <li><a href="Operating Systems.html">Operating Systems</a></li>
+        <li><a href="Algorithmics.php">Algorithmics</a></li>
+        <li><a href="Software Engineering.php">Software Engineering</a></li>
+        <li><a href="Programming Paradigms.php">Programming Paradigm</a></li>
+        <li><a href="Information Security.php">Information Security</a></li>
+        <li><a class="active" href="Web Technologies.php">Web Technologies</a></li>
+        <li><a href="Operating Systems.php">Operating Systems</a></li>
       </ul>
     </div>
     <div>

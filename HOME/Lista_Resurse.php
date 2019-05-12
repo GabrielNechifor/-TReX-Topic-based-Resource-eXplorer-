@@ -1,3 +1,6 @@
+<?php
+include_once 'log_in_buttons.php'
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
   <head>
@@ -12,9 +15,7 @@
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
           <img class="logo" src="images/lo.png" alt="">
           <div class="move_buttons">
-           
-            <a href="Log_in.php"><button class="buttons">Log in</button></a>
-            <a href="Sign_up.php"><button class="buttons">Sign up</button></a>
+          <?php echo $output; ?>
          
           </div>
       </header>
@@ -44,7 +45,7 @@
 
           <article>
             <section>
-               <div class="subtitlu" align="center"><strong>  <a href="Acasa.php">CCS</a> -> <a href="Programming Paradigms.php">Programming Paradigms</a> -> <a> Object Orientated Programming</a> </strong></div>
+               <div class="subtitlu" align="center"><strong>  <a href="index.php">CCS</a> -> <a href="Programming Paradigms.php">Programming Paradigms</a> -> <a> Object Orientated Programming</a> </strong></div>
 
           </section>
 
@@ -71,7 +72,7 @@
             </li>
             <li>
 
-                    <p><a href="Carte_Algoritmica.html"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
+                    <p><a href="Carte_Algoritmica.php"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
 
                     <p id="obliqueFont"> Design patterns, software engineering, object-orientated programming</p>
 

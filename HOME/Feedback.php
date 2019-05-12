@@ -1,3 +1,7 @@
+<?php
+include_once 'log_in_buttons.php'
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
   <head>
@@ -11,8 +15,7 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <img class="logo" src="images/lo.png" alt="">
         <div class="move_buttons">
-             <a href="Log_in.html"><button class="buttons">Log in</button></a>
-             <a href="Sign_up.html"><button class="buttons">Sign up</button></a>    
+				<?php echo $output; ?> 
         </div>
 	</header>
   <nav id="nav">
