@@ -3,7 +3,7 @@ class User {
 	private $dbHost     = "localhost";
     private $dbUsername = "root";
     private $dbPassword = "";
-    private $dbName     = "log_in_db";
+    private $dbName     = "trex";
     private $userTbl    = 'users';
 	
 	function __construct(){
