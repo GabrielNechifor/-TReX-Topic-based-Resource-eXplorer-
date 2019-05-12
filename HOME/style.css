@@ -647,7 +647,48 @@ input[type=password], select{
   .sidepanel ul {
   width: 100%;
   }
+
+  
 }
+
+
+
+
+.img_user{
+  width:80%;
+  display: inline-block;
+  border: 3px solid forestgreen ;
+}
+ .table_user{
+  width:70%;
+  display:inline-block;
+}
+#Shape_user{
+	width:60%;
+	margin:0 auto;
+	padding:41px 0 0 0;
+	}
+  #Shape_user ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow:hidden;
+    height:auto;
+    }
+    
+    #Shape_user ul li{
+    float: left;
+    width:40%;
+    }
+
+   
+  
+    #Shape_user ul li table th{
+      font-style: oblique;
+      text-align: center;
+      
+
+    }
 
 
   
