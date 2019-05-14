@@ -5,7 +5,7 @@ include_once 'log_in_buttons.php'
 <html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
-    <title>Carte_Algoritmica</title>
+    <title>Articol</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>

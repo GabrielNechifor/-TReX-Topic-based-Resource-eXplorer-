@@ -65,19 +65,19 @@ include_once 'log_in_buttons.php'
   </section>
   <div id="container" align="center">
     <div class="box">
-			<a href="#interactiune"><div class="boxinside">Windows</div></a>
+			<a href="Lista_Resurse.php?subdomain=Windows&domain=Operating Systems"><div class="boxinside">Windows</div></a>
 	  </div>
 	  <div class="box">
-			<a href="#interactiune"><div class="boxinside">MacOS</div></a>
+			<a href="Lista_Resurse.php?subdomain=MacOS&domain=Operating Systems"><div class="boxinside">MacOS</div></a>
 	  </div>
 	  <div class="box">
-			<a href="#interactiune"><div class="boxinside">Linux</div></a>
+			<a href="Lista_Resurse.php?subdomain=Linux&domain=Operating Systems"><div class="boxinside">Linux</div></a>
 	  </div>
     <div class="box">
-      <a href="#interactiune"><div class="boxinside">Android</div></a>
+      <a href="Lista_Resurse.php?subdomain=Android&domain=Operating Systems"><div class="boxinside">Android</div></a>
     </div>
     <div class="box">
-      <a href="#interactiune"><div class="boxinside">iOS</div></a>
+      <a href="Lista_Resurse.php?subdomain=iOS&domain=Operating Systems"><div class="boxinside">iOS</div></a>
     </div>
   </div>
   <footer>

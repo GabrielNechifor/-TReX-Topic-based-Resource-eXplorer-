@@ -66,22 +66,22 @@ include_once 'log_in_buttons.php'
 </section>
     <div id="container" align="center">
       <div class="box">
-        <a href="#interactiune"><div class="boxinside">Software requirements</div></a>
+        <a href="Lista_Resurse.php?subdomain=Software requirements&domain=Software Engineering"><div class="boxinside">Software requirements</div></a>
       </div>
 	    <div class="box">
-			  <a href="#interactiune"><div class="boxinside">Software design</div></a>
+			  <a href="Lista_Resurse.php?subdomain=Software design&domain=Software Engineering"><div class="boxinside">Software design</div></a>
 	    </div>
 	    <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software construction</div></a>
+		  	<a href="Lista_Resurse.php?subdomain=Software construction&domain=Software Engineering"><div class="boxinside">Software construction</div></a>
 	    </div>
       <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software testing</div></a>
+		  	<a href="Lista_Resurse.php?subdomain=Software testing&domain=Software Engineering"><div class="boxinside">Software testing</div></a>
 	    </div>
       <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software maintenance</div></a>
+		  	<a href="Lista_Resurse.php?subdomain=Software maintenance&domain=Software Engineering"><div class="boxinside">Software maintenance</div></a>
 	    </div>
       <div class="box">
-		  	<a href="#interactiune"><div class="boxinside">Software engineering management</div></a>
+		  	<a href="Lista_Resurse.php?subdomain=Software engineering management&domain=Software Engineering"><div class="boxinside">Software engineering management</div></a>
 	    </div>
     </div>
   </article>

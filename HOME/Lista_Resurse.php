@@ -21,7 +21,6 @@ include_once 'log_in_buttons.php'
       </header>
 
 
-
   	
 		<nav id="nav">
 				<ul>
@@ -45,8 +44,10 @@ include_once 'log_in_buttons.php'
 
           <article>
             <section>
-               <div class="subtitlu" align="center"><strong>  <a href="index.php">CCS</a> -> <a href="Programming Paradigms.php">Programming Paradigms</a> -> <a> Object Orientated Programming</a> </strong></div>
-
+               <?php if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
+                     if(isset($_GET['domain'])){ $dmn = $_GET['domain']; }
+                echo "<div class=\"subtitlu\" align=\"center\"><strong>  <a href=\"index.php\">CCS</a> -> <a href=\"".$dmn.".php\">".$dmn."</a> -> <a> ".$subdmn."</a> </strong></div>";
+               ?>
           </section>
 
 
@@ -54,39 +55,43 @@ include_once 'log_in_buttons.php'
 
     <section >
         <ul  class="list">
-            <li>
-
-                <p><a href="Carte_Algoritmica.php"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
-
-                <p id="obliqueFont"> Design patterns, software engineering, object-orientated programming</p>
-
-                <p class="align_left">
-                        <i class="fa fa-star colorated"></i>
-                        <i class="fa fa-star colorated"></i>
-                        <i class="fa fa-star colorated"></i>
-                        <i class="fa fa-star colorated"></i>
-                        <i class="fa fa-star colorated"></i>
-                </p>
-
-
-            </li>
-            <li>
-
-                    <p><a href="Carte_Algoritmica.php"><b>Design Patterns: Elements of Reuseable Object-Orientate Software</b></a> </p>
-
-                    <p id="obliqueFont"> Design patterns, software engineering, object-orientated programming</p>
-
-                    <p class="align_left">
-                            <i class="fa fa-star colorated"></i>
-                            <i class="fa fa-star colorated"></i>
-                            <i class="fa fa-star colorated"></i>
-                            <i class="fa fa-star colorated"></i>
-                            <i class="fa fa-star"></i>
-                         </p>
+        <?php
+            $xml = new XMLReader();
+            $xml->open('XML_Resource.xml');
+            while($xml->read()){
+                if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'subdomain' && $xml->getAttribute('category') == $subdmn){
+                    while($xml->read()){
+                        if($xml->localName == 'subdomain'){
+                            break;
+                        }
+                        if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'article'){
+                            $id = $xml->getAttribute('id');
+                            echo "<li>";
+                        }
+                            if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'name'){
+                                $xml->read();
+                                echo "<p><a href=\"Carte_Algoritmica.php?param=".$id."\"><b>".($xml->value)."</b></a> </p>";                  
+                            } 
+                            if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'review'){
+                                $xml->read();
+                                echo "<p id=\"obliqueFont\">".($xml->value)."</p>";
+                                echo "<p class=\"align_left\">
+                                    <i class=\"fa fa-star colorated\"></i>
+                                    <i class=\"fa fa-star colorated\"></i>
+                                    <i class=\"fa fa-star colorated\"></i>
+                                    <i class=\"fa fa-star colorated\"></i>
+                                    <i class=\"fa fa-star colorated\"></i>
+                                 </p>
 
 
-                </li>
-
+                              </li> ";   
+                            }           
+                    }
+                }
+                
+            }
+            $xml->close();
+            ?>
             </ul>
     </section>
 </article>
