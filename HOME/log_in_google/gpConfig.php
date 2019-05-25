@@ -10,7 +10,7 @@ include_once 'src/contrib/Google_Oauth2Service.php';
  */
 $clientId = '914786618424-hro24j387dqhuusddgg892iuvac5qqna.apps.googleusercontent.com'; //Google client ID
 $clientSecret = 'muHECTRbWe4PQyHJYaLBRkk9'; //Google client secret
-$redirectURL = 'http://localhost/trex/'; //Callback URL
+$redirectURL = 'http://localhost/-TReX-Topic-based-Resource-eXplorer-/HOME/'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();

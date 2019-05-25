@@ -1,8 +1,8 @@
 <?php
 class User {
-	private $dbHost     = "localhost";
-    private $dbUsername = "root";
-    private $dbPassword = "";
+	private $dbHost     = "35.241.163.89";
+    private $dbUsername = "trex";
+    private $dbPassword = "trex";
     private $dbName     = "trex";
     private $userTbl    = 'users';
 	
