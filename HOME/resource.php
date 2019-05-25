@@ -27,7 +27,7 @@ insert into resources values(26,"What software engineering management is like","
 insert into resources values(27,"Software Engineering Management","trex/Resursa.php?id=27/");
 insert into resources values(28,"Functional Programming - Introduction","trex/Resursa.php?id=28/");
 insert into resources values(29,"Functional Programming Paradigm","trex/Resursa.php?id=29/");
-insert into resources values(30,"Functional Programming Fundamentals","trex/Resursa.php?id=30/");
+insert into resources values(30,"Functional Programming","trex/Resursa.php?id=30/");
 insert into resources values(31,"How to explain object-oriented programming concepts to a 6-year-old","trex/Resursa.php?id=31/");
 insert into resources values(32,"Basic Concepts of Object Oriented Programming using C++","trex/Resursa.php?id=32/");
 insert into resources values(33,"What is Object Oriented Programming (OOPS)? Simple Explanation for Beginners","trex/Resursa.php?id=33/");

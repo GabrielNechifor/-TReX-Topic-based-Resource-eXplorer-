@@ -46,7 +46,7 @@ include_once 'log_in_buttons.php'
         <ul>
           <li><a href="Algorithmics.php">Algorithmics</a></li>
           <li><a href="Software Engineering.php">Software Engineering</a></li>
-          <li><a class="active" href="Programming Paradigms.php">Programming Paradigm</a></li>
+          <li><a class="active" href="Programming Paradigms.php">Programming Paradigms</a></li>
           <li><a href="Information Security.php">Information Security</a></li>
           <li><a href="Web Technologies.php">Web Technologies</a></li>
           <li><a href="Operating Systems.php">Operating Systems</a></li>
@@ -67,13 +67,13 @@ include_once 'log_in_buttons.php'
      </section>
     <div id="container" align="center">
       <div class="box">
-        <a href="#interactiune"><div class="boxinside">Functional Programming</div></a>
+        <a href="Lista_Resurse.php?subdomain=Functional Programming&domain=Programming Paradigms"><div class="boxinside">Functional Programming</div></a>
       </div>
       <div class="box">
-        <a href="Lista_Resurse.php"><div class="boxinside">Object Orientated Programing</div></a>
+        <a href="Lista_Resurse.php?subdomain=Object Orientated Programing&domain=Programming Paradigms"><div class="boxinside">Object Orientated Programing</div></a>
       </div>
       <div class="box">
-        <a href="#interactiune"><div class="boxinside">Procedural Programming</div></a>
+        <a href="Lista_Resurse.php?subdomain=Procedural Programming&domain=Programming Paradigms"><div class="boxinside">Procedural Programming</div></a>
       </div>
   </div>
   </article>

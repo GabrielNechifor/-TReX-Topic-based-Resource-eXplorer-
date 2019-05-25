@@ -36,7 +36,7 @@ include_once 'log_in_buttons.php'
         </nav>
 <article>
   <section>
-  <div class="subtitlu" align="center"><strong><a href="index.html">CCS</a> -> <a href="Web Technologies.php">Web Technologies</a></strong></div>
+  <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Web Technologies.php">Web Technologies</a></strong></div>
   </section>
   <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
@@ -65,10 +65,10 @@ include_once 'log_in_buttons.php'
     </section>
     <div id="container" align="center">
       <div class="box">
-			  <a href="#interactiune"><div class="boxinside">Front-End</div></a>
+			  <a href="Lista_Resurse.php?subdomain=Front-End&domain=Web Technologies"><div class="boxinside">Front-End</div></a>
 	    </div>
 	    <div class="box">
-		   	<a href="#interactiune"><div class="boxinside">Protocols</div></a>
+		   	<a href="Lista_Resurse.php?subdomain=Protocols&domain=Web Technologies"><div class="boxinside">Protocols</div></a>
       </div>
     </div>
   </article>

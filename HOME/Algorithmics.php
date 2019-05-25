@@ -66,13 +66,13 @@ include_once 'log_in_buttons.php'
   </section> 
     <div id="container" align="center">
         <div class="box">
-		     	<a href="#interactiune"><div class="boxinside">Algoritmic complexity theory</div></a>
+		     	<a href="Lista_Resurse.php?subdomain=Algorithmic complexity theory&domain=Algorithmics"><div class="boxinside">Algorithmic complexity theory</div></a>
       	</div>
       	<div class="box">
-		    	<a href="#interactiune"><div class="boxinside">Algorithm design</div></a>
+		    	<a href="Lista_Resurse.php?subdomain=Algorithm design&domain=Algorithmics"><div class="boxinside">Algorithm design</div></a>
 	      </div>
 	      <div class="box">
-			    <a href="#interactiune"><div class="boxinside">Hardness of problems</div></a>
+			    <a href="Lista_Resurse.php?subdomain=Hardness of problems&domain=Algorithmics"><div class="boxinside">Hardness of problems</div></a>
       	</div>
      </div>
   <footer>

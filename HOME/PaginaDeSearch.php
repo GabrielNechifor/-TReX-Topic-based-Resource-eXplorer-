@@ -43,20 +43,14 @@ include_once 'log_in_buttons.php'
 
 
           <article>
-            <section>
-               <?php if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
-                     if(isset($_GET['domain'])){ $dmn = $_GET['domain']; }
-                echo "<div class=\"subtitlu\" align=\"center\"><strong>  <a href=\"index.php\">CCS</a> -> <a href=\"".$dmn.".php\">".$dmn."</a> -> <a> ".$subdmn."</a> </strong></div>";
+               <?php /*if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
+                     if(isset($_GET['domain'])){ $dmn = $_GET['domain']; }*/
                ?>
-          </section>
-
-
-
 
     <section >
         <ul  class="list">
         <?php
-            $xml = new XMLReader();
+           /* $xml = new XMLReader();
             $xml->open('XML_Resource.xml');
             while($xml->read()){
                 if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'subdomain' && $xml->getAttribute('category') == $subdmn){
@@ -90,7 +84,7 @@ include_once 'log_in_buttons.php'
                 }
                 
             }
-            $xml->close();
+            $xml->close();*/
             ?>
             </ul>
     </section>

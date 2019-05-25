@@ -66,16 +66,16 @@ include_once 'log_in_buttons.php'
       </section>
       <div id="container" align="center">
         <div class="box">
-          <a href="#interactiune"><div class="boxinside">Web application security</div></a>
+          <a href="Lista_Resurse.php?subdomain=Web application security&domain=Information Security"><div class="boxinside">Web application security</div></a>
         </div>
         <div class="box">
-          <a href="#interactiune"><div class="boxinside">Mobile application security</div></a>
+          <a href="Lista_Resurse.php?subdomain=Mobile application security&domain=Information Security"><div class="boxinside">Mobile application security</div></a>
         </div>
         <div class="box">
-          <a href="#interactiune"><div class="boxinside">Network security</div></a>
+          <a href="Lista_Resurse.php?subdomain=Network security&domain=Information Security"><div class="boxinside">Network security</div></a>
         </div>
         <div class="box">
-          <a href="#interactiune"><div class="boxinside">Reverse enigeering</div></a>
+          <a href="Lista_Resurse.php?subdomain=Reverse engineering&domain=Information Security"><div class="boxinside">Reverse engineering</div></a>
         </div>
         </div>
   </article>

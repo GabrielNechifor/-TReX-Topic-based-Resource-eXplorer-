@@ -5,7 +5,7 @@ include_once 'log_in_buttons.php'
 <html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
-    <title>Carte_Algoritmica</title>
+    <title>Articol</title>
     <link href="style.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
@@ -39,49 +39,61 @@ include_once 'log_in_buttons.php'
       </ul>
       </nav>
 
-
- <div class="subtitlu" >
- <a href="index.php">CCS</a> -> <a href="Programming Paradigms.php">Programming Paradigms</a> -> <a>Article Design Patern</a>
-</div>
+ <?php if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
+                     if(isset($_GET['domain'])){ $dmn = $_GET['domain']; }
+                        if(isset($_GET['param'])) { $id = $_GET['param']; }
+                echo "<div class=\"subtitlu\">  <a href=\"index.php\">CCS</a> -> <a href=\"".$dmn.".php\">".$dmn."</a> -> <a href=\"Lista_Resurse.php?subdomain=".$subdmn."&domain=".$dmn."\"> ".$subdmn."</a> </strong></div>";
+               ?>
+ 
 	 <br>
         <article>
             <section>
         <table id="table1">
-            <tr>
-                 <td> Article type: </td>
-                 <td> PDF book </td>
-            </tr>
-            <tr>
-                 <td> Name: </td>
-                 <td> Design Patterns: Elements of Reusable Object-Oriented Software</td>
-            </tr>
-            <tr>
-                 <td> Authors: </td>
-                 <td> Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</td>
-            </tr>
-            <tr>
-                    <td> Rating: </td>
-                    <td>5/5</td>
-            </tr>
-            <tr>
-                    <td> Publisher: </td>
-                    <td>Addison-Wesley</td>
-           </tr>
-           <tr>
-                <td>Publication date: </td>
-                <td>1994</td>
-           </tr>
-           <tr>
-               <td>Subject</td>
-               <td>	Design patterns, software engineering, object-oriented programming</td></tr>
-            <tr>
-                     <td> Access to buy:</td>
-                     <td><a href="https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">here</a> </td>
-            </tr>
+        <?php
+        $xml = new XMLReader();
+            $xml->open('XML_Resource.xml');
+            while($xml->read()){
+                if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'article' && $xml->getAttribute('id') == $id){
+                    $youtube = 0;
+                    while($xml->read() && $xml->localName != 'article'){
+                            echo "<tr>";
+                            if($xml->nodeType == XMLREADER::ELEMENT  && $xml->localName != '#text' && $xml->localName != 'resource' && $xml->localName != 'embed_resource'){
+                                echo "<td>".strtoupper($xml->localName)."</td>";
+                                $xml->read();
+                                echo "<td>".($xml->value)."</td>";
+                                
+                                if($xml->value == 'Youtube Video'){
+                                    $youtube = 1;
+                                }
+                            } 
+                            if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'resource'){
+                                if($youtube == 0){
+                                echo "<td>".strtoupper($xml->localName)."</td>";
+                                $xml->read();                               
+                                echo "<td> <a href=\"".($xml->value)."\">here<a> </td>";
+                                }else{
+                                  $nm = $xml->localName;
+                                  $xml->read();
+                                  $lnk = $xml->value;
+                                }
+                            }
+                            if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'embed_resource'){
+                                  $xml->read();
+                                 echo "<td>".strtoupper($nm)."</td>";
+                                 echo "<td> <div class=\"iframe-container\"> <iframe width=\"560\" height=\"315\" src=\"".($xml->value)."\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe> </div>";
+                                   echo "<br> See video on Youtube <a href=\"".$lnk."\">here<a> </td>";
+                            }
+                            echo "</tr>";           
+                    }
+                }
+                
+            }
+        ?>
             </table>
             
            </section>
         </article>
+        <br> <br>
             <footer> Copyright &copy; Faculty of Computer Science, group A7</footer>
     </body>
 </html>
