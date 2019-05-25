@@ -70,7 +70,11 @@ include_once 'log_in_buttons.php'
                         }
                             if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'name'){
                                 $xml->read();
+<<<<<<< HEAD
                                 echo "<p><a href=\"Carte_Algoritmica.php?param=".$id."&subdomain=".$subdmn."&domain=".$dmn."\"><b>".($xml->value)."</b></a> </p>";                  
+=======
+                                echo "<p><a href=\"Carte_Algoritmica.php?param=".$id."\"><b>".($xml->value)."</b></a> </p>";                  
+>>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
                             } 
                             if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'review'){
                                 $xml->read();
