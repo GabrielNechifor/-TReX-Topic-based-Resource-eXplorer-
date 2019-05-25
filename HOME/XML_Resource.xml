@@ -31,11 +31,7 @@ this edition.</review>
                      <resource>C:\Disk D\Cursurile de la facultate\Semestrul 4\Tehnologii WEB\Proiect\domenii\Algorithmics\Algorithm design/SkienaTheAlgorithmDesignManual.pdf</resource>
              </article>
              <article id="3">
-<<<<<<< HEAD
                     <type>Youtube Video</type>
-=======
-                    <type>Youtube video</type>
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
                     <name>Principles of Algorithm Design</name>
                     <instructor>Victor Costan</instructor>
                     <publisher>MIT OpenCourseWare Youtube Channel</publisher>
@@ -44,10 +40,7 @@ this edition.</review>
 algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between 
 algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.</review>
                     <resource>https://www.youtube.com/watch?v=a_otxyu0mSQt=11sfbclid=IwAR19QXBNXjM1Xhn_CpiSgkJzfRjIIFuY2cP6IyAZxFkqoECHq_T_OMf2FVs</resource>
-<<<<<<< HEAD
                     <embed_resource>https://www.youtube.com/embed/a_otxyu0mSQ</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Algorithmic complexity theory">
@@ -72,10 +65,7 @@ We meet many open problems motivated by thei approach are listed.</review>
 how long does it take a program to run ,so we have been talking about the searching already in the sorting and how differrent searches are 
 quicker, so we have a whole science in computer science looking at the way we measure how efficient an algorithm is and ways to optimize it.</review>
                      <resource>https://www.youtube.com/watch?v=eyRBuByJByEfbclid=IwAR2FC2uqOmOjcgkL7NiUEZxEbVB25mjcSx7RlmxfVf9CIVkLF2rhGumHLAs</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/eyRBuByJByE</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
              <article id="6">
                      <type>PDF Article</type>
@@ -122,10 +112,7 @@ problems, which are considered the hardest problems in NP.</review>
                      <review>In this video we have NP-hard-- Now suppose we found that A is reducible to B, then it means that B is at least as hard as A 
 and NP-Complete -- The group of problems which are both in NP and NP-hard are known as NP-Complete problem.</review>
                      <resource>https://www.youtube.com/watch?v=LMWumfmjB0gfbclid=IwAR2BH7BsvnyBq6hxq0FZf2cDoryPHFwFLDrCyzaD9obwUi0jz6cjcTZ_mqw</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/LMWumfmjB0g</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
@@ -158,10 +145,7 @@ of the target system. Requirements convey the expectations of users from the sof
                      <publication_date>18.11.2017</publication_date>
                      <review>This video present us the "Different Types of Software Requirement - Functional, Non-Functional" by SE Lectures Hindi.</review>
                      <resource>https://www.youtube.com/watch?v=QhJSlFWFICMfbclid=IwAR3IsbK9J6ixbOhtafuwI472AHT6ZG9144KuXTVGzLLmU6IWg8kmPrNvdf0</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/QhJSlFWFICM</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
 
         </subdomain>
@@ -184,10 +168,7 @@ specify how to fulfill the requirements mentioned in SRS.</review>
                      <review>In this video we discuss about software design .A software design description is a written description of a software product,
  that a software designer writes in order to give a software development team overall guidance to the architecture of the software project.</review>
                      <resource>https://www.youtube.com/watch?v=3p0fKLwnfF8fbclid=IwAR0NZhNG2pIs4qa7SY-mWLR_E7gJDZUgDMAg20DN6fAVuOwngeX3WV1aLzk</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/3p0fKLwnfF8</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
              <article id="15">
                      <type>PDF Book</type>
@@ -234,10 +215,7 @@ that have occurred since it was published.</review>
                      <review> This video indroduces Software Construction and discusses the merits of studyng software construction .Course goals are identified. A general 
  overview of UML  is presented.</review>
                      <resource>https://www.youtube.com/watch?v=AEkm0IvFK8w</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/AEkm0IvFK8w</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Software testing">
@@ -257,10 +235,7 @@ that have occurred since it was published.</review>
                      <review>This video is very necessary if you want to know about software testing because it contains many information about  software testing 
  training ,QA training and software testing course .It is the best way to learn quicly and efficient about that.</review>
                      <resource>https://www.youtube.com/watch?v=kpT95Jb3t3U</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/kpT95Jb3t3U</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
              <article id="21">
                      <type>PDF Book</type>
@@ -299,10 +274,7 @@ that no one knew about when Myers wrote the first edition: Web programming, e-co
                      <review>This video is very helpfull for developer and another personnel involved in developing software to have concrete steps that they can 
  can use to create maintainable software ,so good luck to understand the following notions.</review>
                      <resource>https://www.youtube.com/watch?v=8CO29Pbyjx0</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/8CO29Pbyjx0</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Software engineering management">
@@ -337,10 +309,7 @@ So we should  learn from his words, because it is a big advantage for our future
                      <review>This video will present us informtion  about software engineering management. The main issues from this video are: Plan-as much as possible 
 ,but not too much ,up front and Control-continuously.</review>
                      <resource>https://www.youtube.com/watch?v=3GeLW2VzXQc</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/3GeLW2VzXQc</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
@@ -366,23 +335,12 @@ functional programming languages include: Lisp, Python, Erlang, Haskell, Clojure
                      <resource>https://www.geeksforgeeks.org/functional-programming-paradigm/</resource>
              </article>
              <article id="30">
-<<<<<<< HEAD
                      <type>Wikipedia Article</type>
                      <name>Functional Programming</name>
                      <publisher>wikipedia.org</publisher>
                      <review>In this article we will find information about Functional Programming. It contains information about history, concepts, using in industry, in education.
                       Furthermore, it has some ways to comparison with imperative programming, using more programing languages.</review>
                      <resource>https://en.wikipedia.org/wiki/Functional_programming</resource>
-=======
-                     <type>Youtube Video</type>
-                     <name>Functional Programming Fundamentals</name>
-                     <speaker>Matthew Gerstman</speaker>
-                     <publisher>Coding Tech Youtube Channel</publisher>
-                     <publication_date>02.12.2018</publication_date>
-                     <review>In this video we will find information about "Functional programming " and " Declarative vs Imperative styles". e’ll discuss the fundamentals of Functional Programming and how they apply to modern JavaScript. We’ll cover immutability, separation of concerns, and
- composability. We’ll avoid unnecessary jargon like monads and functors and stick to concepts that will make our code better.</review>
-                     <resource>https://www.youtube.com/watch?v=6haJrc1kPno</resource>
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Object Orientated Programing">
@@ -416,10 +374,7 @@ Object: Objects are basic run-time entities in an object oriented system, object
  Abstraction, Encapsulation, and Polymorphism. In this video, we have explained What is OOP? and What are other concepts related to OOP,
  using a very basic example of Human Beings.</review>
                      <resource>https://www.youtube.com/watch?v=xoL6WvCARJY</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/xoL6WvCARJY</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Procedural Programming">
@@ -453,10 +408,7 @@ want it to do.This workshop is your first step towards becoming a competent comp
                      <review>In this video we will discuss about " Procedural Programming Paradigm" and we will understand much better this aspect.It is very helpfull 
  for the people who want to know how it function.</review>
                      <resource>https://www.youtube.com/watch?v=L2TCrXY1qgw</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/L2TCrXY1qgw</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
@@ -498,10 +450,7 @@ want it to do.This workshop is your first step towards becoming a competent comp
  complete web application security solution","How to secure your website or web application","What are automated web vulnerability scanners",
  "Advantages of automated web vulnerability scanners".</review>
                      <resource>https://www.youtube.com/watch?v=XGy-lHlk_Cw</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/XGy-lHlk_Cw</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Mobile application security">
@@ -534,10 +483,7 @@ building their mobile applications.</review>
 very important for any business to secure their apps before it goes live. Mobile applications and related security breaches receive a lot
  of media attention You cannot be 100% safe, but you can make it hard – Defense in Depth Know your data.</review>
                      <resource>https://www.youtube.com/watch?v=WFmDs73lMTI</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/WFmDs73lMTI</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Network security">
@@ -574,10 +520,7 @@ very important for any business to secure their apps before it goes live. Mobile
                      <review>This Edureka video gives an introduction to Network Security and its nuances. Topics covered in this video are:"Need for Network Security",
 "What is Network Security","Security in the Network, Transport and Application Layer" and "Network Security for Business".</review>
                      <resource>https://www.youtube.com/watch?v=6Jubl1UnJTE</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/6Jubl1UnJTE</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Reverse engineering">
@@ -612,10 +555,7 @@ very important for any business to secure their apps before it goes live. Mobile
                      <review>In this video ,Ian Guile is giving a presentation on the basics of reverse engineering windows applications, including an introduction 
  into assembly.It is very helpfull for every person who want to know more information about this topic.</review>
                      <resource>https://www.youtube.com/watch?v=a2EkORFcSZo</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/a2EkORFcSZo</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
@@ -654,10 +594,7 @@ that is easy to read and relevant.</review>
 writing HTML and CSS from scratch! By the end of the course, you will:"Understand the basics of HTML","Understand the basics of CSS","Write HTML and CSS to make a static mockup work in the 
 browser","Understand Responsive Web Design" and much more.</review>
                      <resource>https://www.youtube.com/watch?v=8gNrZ4lAnAw</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/8gNrZ4lAnAw</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Protocols">
@@ -686,10 +623,7 @@ server, which is then displayed on the browser screen in the form of text and im
                      <review>In this video we will discouss about the types of protocols.
                      This is very helpfull for the people who want to know which of the protocols stand behind a web application and how it works.</review>
                      <resource>https://www.youtube.com/watch?v=zveRq0wCSKM</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/zveRq0wCSKM</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
@@ -727,10 +661,7 @@ input/output devices, computer memories etc during data processing operations. I
                      <review>Hear best practices and see a demonstration of how to deploy and maintain Windows Information Protection (WIP), the mobile application management (MAM) mechanism for Windows. We also
  discuss how WIP relates to other Microsoft information protection technologies like AIP and OIP.</review>
                      <resource>https://www.youtube.com/watch?v=2QnRzd9ZrIg</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/2QnRzd9ZrIg</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="MacOS">
@@ -759,10 +690,7 @@ Macintosh line of personal computers (PCs). The Macintosh heralded the era of gr
                      <review>In this video we will see how Apple has officially released its next iteration of macOS, macOS Mojave, and in this video we're going to go over some of the key features users can expect 
 to see in the latest version of macOS.</review>
                      <resource>https://www.youtube.com/watch?v=bkFOgV9JWdk</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/bkFOgV9JWdk</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Linux">
@@ -791,10 +719,7 @@ devices. It is supported on almost every major computer platform including x86, 
                      <review>In this tutorial we will give you a quick introduction to linux and linux commands for aspiring linux students.Contents of this Course:"Introduction to Linux","Quick Overview of Linux
 Distributions or Distros, such as Debian or Ubuntu","Using the Linux Terminal" and "Basic Linux commands for navigation and file manipulation".</review>
                      <resource>https://www.youtube.com/watch?v=IVquJh3DXUA</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/IVquJh3DXUA</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="Android">
@@ -827,10 +752,7 @@ for applications.</review>
                      <review>Everyone knows Google's origin story, but how many know Android was originally designed for digital cameras? Discover the origin, names, versions and features as Lanh walks you through 
 the history of Android.Thus this video will answer all of your questions related to this topic.</review>
                      <resource>https://www.youtube.com/watch?v=ChkZkYIePfY</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/ChkZkYIePfY</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
         <subdomain category="iOS">
@@ -862,10 +784,7 @@ How Often Is It Updated?","Should I Update My Device With Each Minor Release","H
 running on Apple’s own hardware. Compare this to the Android mobile operating system, which is licensed by Google to various hardware manufacturers and wireless carriers. Now the debate
  over which approach is better is a topic we’re not getting into today, because in this video, we’re going to focus on the history of iOS and its development from 2007 to 2018.</review>
                      <resource>https://www.youtube.com/watch?v=T9hTyN6k7ac</resource>
-<<<<<<< HEAD
                      <embed_resource>https://www.youtube.com/embed/T9hTyN6k7ac</embed_resource>
-=======
->>>>>>> 2d43c58fb41229362d0d5691c9a0e28dc3c9d6c9
              </article>
         </subdomain>
   </domain>
