@@ -1,6 +1,11 @@
 <?php
 include_once 'log_in_buttons.php'
 ?>
+<?php
+date_default_timezone_set('Europe/Copenhagen');
+include 'dba.inc.php';
+include 'comments.inc.php';
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
   <head>
@@ -90,9 +95,19 @@ include_once 'log_in_buttons.php'
             }
         ?>
             </table>
-            
            </section>
         </article>
+<?php
+echo "
+        <form method='POST' action='".setComments($conn)."'>
+        <input type='hidden' name='uid' value='Anonymus'>
+        <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+        <textarea name='message'></textarea>
+        <button type='submit' name='commentSubmit'>Comment</button>
+        </form>";
+        getComments($conn); 
+
+?>
         <br> <br>
             <footer> Copyright &copy; Faculty of Computer Science, group A7</footer>
     </body>
