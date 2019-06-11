@@ -5,6 +5,15 @@ include_once 'log_in_buttons.php'
 date_default_timezone_set('Europe/Copenhagen');
 include 'dba.inc.php';
 include 'comments.inc.php';
+include 'rate.php';
+?>
+
+<?php 
+$query= $conn->query("SELECT resourceId, AVG(nota) as rating from recomandari GROUP BY resourceId");
+$note=[];
+while($row=$query->fetch_object()){
+    $note[]=$row;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
@@ -12,6 +21,7 @@ include 'comments.inc.php';
     <meta charset="utf-8">
     <title>Articol</title>
     <link href="style.css" rel="stylesheet" />
+    <link href="style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -38,7 +48,7 @@ include 'comments.inc.php';
         </span>
       </a>
       </li>
-        <li><a href="Acasa.html"><Strong>Home</Strong></a></li>
+        <li><a href="index.php"><Strong>Home</Strong></a></li>
         <li><a href="#contact"><Strong>Contact</Strong></a></li>
         <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
       </ul>
@@ -53,6 +63,13 @@ include 'comments.inc.php';
 	 <br>
         <article>
             <section>
+        <?php
+        $rate=0;
+        foreach($note as $nota){
+            if($nota->resourceId==$id)
+            $rate=$nota->rating;
+        }?>
+        
         <table id="table1">
         <?php
         $xml = new XMLReader();
@@ -97,16 +114,162 @@ include 'comments.inc.php';
             </table>
            </section>
         </article>
+
+        
+        <h2 align='center'>Rating Section:
+        <?php echo  round($rate,2)." / 5
+                                    <i class='fa fa-star colorated fa-2x'></i>";?></h2>
+        
+
+        <?php echo "<form method='POST' action='".setRating($conn)."'>";?>
+        <?php echo "<input type='hidden' name='resourceId' value='".$id."'>
+                  <input type='hidden' name='userId' value='1'>
+        <table align='center' class='rateTable'>
+        <tr>
+        <td>
+        <fieldset class='rating'>
+        <legend align='center'>How useful do you think the article is?</legend>
+        <div align='center'>
+          <label for='1'>1
+            <input type='checkbox' id='1' name='rating1' value='1'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='2'>2
+            <input type='checkbox' id='2' name='rating1' value='2'>
+            <span class='checkmark'></span>
+          </label>
+          <label for='3'>3
+            <input type='checkbox' id='3' name='rating1' value='3'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='4'>4
+            <input type='checkbox' id='4' name='rating1' value='4'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='5'>5
+            <input type='checkbox' id='5' name='rating1' value='5'/>
+            <span class='checkmark'></span>
+          </label>
+          <i class='fa fa-star colorated fa-2x'></i>
+          </fieldset>
+          <td>
+        <br>
+        <td>
+        <fieldset class='rating'>
+        <legend align='center'>How informative do you think the article is?</legend>
+        <div align='center'>
+          <label for='1'>1
+            <input type='checkbox' id='1' name='rating2' value='1'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='2'>2
+            <input type='checkbox' id='2' name='rating2' value='2'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='3'>3
+            <input type='checkbox' id='3' name='rating2' value='3'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='4'>4
+            <input type='checkbox' id='4' name='rating2' value='4'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='5'>5
+            <input type='checkbox' id='5' name='rating2' value='5'/>
+            <span class='checkmark'></span>
+          </label>
+          <i class='fa fa-star colorated fa-2x'></i>
+          </div>
+          </fieldset>
+         </td></tr>
+        <br>
+        <tr>
+        <td>
+        <fieldset class='rating'>
+        <legend align='center'>How atractive do you think the article is?</legend>
+        <div align='center'>
+          <label for='1'>1
+            <input type='checkbox' id='1' name='rating3' value='1'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='2'>2
+            <input type='checkbox' id='2' name='rating3' value='2'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='3'>3
+            <input type='checkbox' id='3' name='rating3' value='3'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='4'>4
+            <input type='checkbox' id='4' name='rating3' value='4'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='5'>5
+            <input type='checkbox' id='5' name='rating3' value='5'/>
+            <span class='checkmark'></span>
+            
+          </label>
+          <i class='fa fa-star colorated fa-2x'></i>
+          </div>
+          </fieldset>
+          <td>
+          <br>
+          <td>
+          <fieldset class='rating'>
+        <legend align='center'>Do you recommend this article?</legend>
+        <div align='center'>
+          <label for='1'>1
+            <input type='checkbox' id='1' name='rating4' value='1'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='2'>2
+            <input type='checkbox' id='2' name='rating4' value='2'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='3'>3
+            <input type='checkbox' id='3' name='rating4' value='3'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='4'>4
+            <input type='checkbox' id='4' name='rating4' value='4'/>
+            <span class='checkmark'></span>
+          </label>
+          <label for='5'>5
+            <input type='checkbox' id='5' name='rating4' value='5'/>
+            <span class='checkmark'></span>
+          </label>
+          <i class='fa fa-star colorated fa-2x'></i>
+          </div>
+        </fieldset>
+        </td>
+        </tr>
+        </table>
+        
+        
+        <button type='submit' name='Submit' class='buttonRate'>Submit</button>
+        <br>
+          </form>"?>
+     <br>
+
+<?php
+$sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
+$result = $conn->query($sql);
+while($row = $result->fetch_assoc()){
+  $userId=$row['id'];
+}?>
 <?php
 echo "
         <form method='POST' action='".setComments($conn)."'>
-        <input type='hidden' name='uid' value='Anonymus'>
+        <input type='hidden' name='userId' value='".$userId."'>
         <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-        <textarea name='message'></textarea>
-        <button type='submit' name='commentSubmit'>Comment</button>
+        <input type='hidden' name='resourceId' value='".$id."'>
+        <textarea name='text' placeholder='Add a comment..'></textarea>
+        <br>
+        <button type='submit' name='commentSubmit' class='buttonsComment'>Comment</button>
         </form>";
-        getComments($conn); 
-
+echo "<br><div class='container'>";
+getComments($conn,$id); 
+echo "</div>";
 ?>
         <br> <br>
             <footer> Copyright &copy; Faculty of Computer Science, group A7</footer>

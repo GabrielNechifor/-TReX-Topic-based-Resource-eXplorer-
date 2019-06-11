@@ -9,16 +9,18 @@ include_once 'log_in_buttons.php'
 		<title>Acasa</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="style.css" rel="stylesheet" />
+		<link href="style22.css" rel="stylesheet" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 	</head>
 
 
 	<body>
 	<header class="header">
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 		    <img class="logo" src="images/lo.png" alt="">
 				<div class="move_buttons">
-				<?php echo $output; ?>
+				<a href="Users.php"><?php echo $output; ?></a>
+				
 				</div>
 		</header>
 
@@ -39,7 +41,11 @@ include_once 'log_in_buttons.php'
 				</li>
 					<li><a href="Acasa.php"><Strong>Home</Strong></a></li>
 					<li><a href="#contact"><Strong>Contact</Strong></a></li>
-				  <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
+				 <!-- <li style="float:right"><form action="searchPage.php" method="post"><input type="text"  placeholder="Search in page..." id="InputSearch" /></form></li>
+                 -->
+              <li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
+</form>  </li>
         </ul>
 				</nav>
 
@@ -48,6 +54,7 @@ include_once 'log_in_buttons.php'
    <div class="subtitlu">
 	 <strong>Computing Clasification System(CCS)</strong>
 	</div>
+	
 
 
 <div id="container" align="center">

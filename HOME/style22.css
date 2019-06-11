@@ -1,0 +1,258 @@
+.comment{
+    width:845px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-bottom:4px;
+    background-color: azure;
+    border-radius:10px;
+    border:3px;
+    border-color:forestgreen;
+  }
+
+  .container{
+    align-items: center;
+    width:845px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+  .comment p{
+   font-family:arial;
+   font-size:14px 12px;
+   line-height:16px;
+   color:#282828;
+   font-weight:100;
+  }
+
+  textarea{
+    margin-left: 25%;
+    margin-right: 25%;
+    align-content: center;
+    width: 50%;
+    height:80px;
+    background-color:#fff;
+    /*resize:none;*/
+  }
+
+
+
+  .tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid forestgreen;
+  }
+  
+  
+  .tip-left {
+    top: 10px;
+    left: -25px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;  
+  }
+  
+  
+  
+  
+  .dialogbox .body {
+    position: relative;
+   
+    height: auto;
+    width:80%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5px;
+    background-color: azure;
+    border-radius: 3px;
+    border: 5px solid forestgreen;
+  }
+  
+  .body .message {
+    min-height: 30px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #797979;
+    
+  }
+
+  .buttonsComment{
+    margin-left: 26%;
+    border-radius: 10px;
+    width:120px;
+    height:45px;
+    border-color: forestgreen;
+    font: bold 15px Georgia,serif;
+    background-color:forestgreen;
+    color:white;
+  
+  }
+
+  .buttonRate{
+    margin-left: 45%;
+    border-radius: 10px;
+    width:150px;
+    height:50px;
+    border-color: forestgreen;
+    font: bold 17px Georgia,serif;
+    background-color:forestgreen;
+    color:white;
+  
+  }
+
+  #table1{
+    border-color: forestgreen;
+    border-style: solid;
+    border-top-style: solid;
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font:   18px 'Courier New', Courier, monospace;
+        }
+
+  #table1 th, td {
+    padding: 8px;
+    text-align: left;
+    border-top-color: forestgreen;
+  
+  }
+  
+  
+  #table1 tr:nth-child(even) {
+    background-color: azure;
+    border-top-color:forestgreen;
+  }
+  
+  #table1 tr:nth-child(odd) {
+    background-color: forestgreen;
+    color: white;
+    border-top-color: forestgreen;
+  }
+
+.rateTable{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+ 
+  
+
+legend{
+    border-color:forestgreen;
+    border: 5px solid forestgreen;
+    font:  bold  18px 'Courier New', Courier, monospace;
+    background-color: azure;
+}
+
+fieldset{
+    border: 5px solid forestgreen;
+}
+  label,input{
+      display:inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+      
+  }
+
+  .checkmark{
+      height:50px;
+      width:50px;
+      border-color:   forestgreen;
+  }
+
+  .subtitluArticole a{
+    
+    text-align: center;
+    font:  bold  21px 'Courier New', Courier, monospace;
+  }
+
+.umplut{
+     color:white; 
+  }
+  
+.bookmark:after{
+ 
+  
+  transition: .5s;
+
+}
+
+.bookmark:hover:after{
+ opacity:0; 
+} 
+
+#tableUser{
+    border-color:forestgreen;
+    border-style: solid;
+    border-top-style: solid;
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -45px;
+    margin-right: 20%;
+    font:   18px 'Courier New', Courier, monospace;
+        }
+
+  #tableUser th, td {
+   
+    width:auto;
+    border-top-color: forestgreen;
+  
+  }
+  
+  
+  #tableUser td:nth-child(odd) {
+    background-color: forestgreen;
+    border-top-color: forestgreen;
+    color:white;
+    width: auto;
+    
+  }
+  
+  #tableUsers tr:nth-child(odd) {
+    background-color: forestgreen;
+    color: white;
+    border-top-color: forestgreen;
+  }
+
+  .img_user{
+    width:60%;
+
+    display: inline-block;
+    border: 3px solid forestgreen ;
+  }
+
+  .move_buttons{
+    text-align: right;
+    vertical-align: right;
+    display: inline-block;
+    padding-top:35px;
+    padding-right: 15px;
+    
+  
+  
+  }
+  .buttons{
+    float:right;
+    border-radius: 12px;
+    height:auto;
+    margin: 6px 0;
+    padding:10px 12px 10px 12px;
+    font: bold 18px Georgia,serif;
+    background-color:forestgreen;
+    color:white;
+  
+  }
+
+  
+
+
+  
