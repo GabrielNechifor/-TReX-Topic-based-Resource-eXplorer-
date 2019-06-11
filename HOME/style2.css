@@ -224,10 +224,10 @@ fieldset{
   }
 
   .img_user{
-    width:60%;
-
+    width:50%;
     display: inline-block;
     border: 3px solid forestgreen ;
+    margin-right:-25px;
   }
 
   .move_buttons{
@@ -251,6 +251,40 @@ fieldset{
     color:white;
   
   }
+
+  #Shape_user{
+	width:80%;
+    margin-left:10%;
+    margin-right: 10%;
+	padding:41px 0 0 0;
+	}
+  #Shape_user ul{
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width:auto;
+    overflow:hidden;
+    height:auto;
+    }
+    
+    #Shape_user ul li{
+    float: left;
+    width:40%;
+    }
+
+    #Shape_user table ol li{
+        float: left;
+        width:100%;
+        }
+
+   
+  
+    #Shape_user ul li table th{
+      font-style: oblique;
+      text-align: center;
+      
+
+    }
 
   
 
