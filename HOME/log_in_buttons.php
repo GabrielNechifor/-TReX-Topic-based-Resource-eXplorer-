@@ -42,7 +42,7 @@ if ($gClient->getAccessToken()) {
 	//Render google profile data
     if(!empty($userData)){
 				$output = '<a href="log_in_google/logout.php"><button class="buttons">Log out</button></a>';
-				$output .= '<a href="log_in_google/logout.php"><button class="buttons">'.$userData['email'].'</button></a>';
+				$output .='<a href="Profile.php"><button class="buttons"><i class="far fa-id-card"></i>'.$userData['first_name'].'</button></a>';
     }else{
         $output = '<h3 style="color:red">Some problem occurred, please try again.</h3>';
     }

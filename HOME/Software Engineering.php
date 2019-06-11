@@ -7,6 +7,7 @@ include_once 'log_in_buttons.php'
     <meta charset="utf-8">
     <title>Software Engineering</title>
     <link href="style.css" rel="stylesheet" />
+    <link href="style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -17,24 +18,18 @@ include_once 'log_in_buttons.php'
           <?php echo $output; ?>
           </div>
       </header>
-		<nav id="nav">
+		<nav class="nav">
 				<ul>
-          <li>
-            <a>
-            <span>
-              <svg width="30" height="30">
-                <path d="M0,5 30,5" stroke="#fff" stroke-width="2"/>
-                <path d="M0,14 30,14" stroke="#fff" stroke-width="2"/>
-                <path d="M0,23 30,23" stroke="#fff" stroke-width="2"/>
-              </svg>
-            </span>
-          </a>
-          </li>
-            <li><a href="Acasa.php"><Strong>Home</Strong></a></li>
+            <li>
+              <a>
+              <i class="fas fa-bars fa-2x"></i>
+            </a>
+            </li>
+            <li><a href="index.php"><Strong>Home</Strong></a></li>
             <li><a href="#contact"><Strong>Contact</Strong></a></li>
             <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
         </ul>
-				</nav>
+			</nav>
 <article>
   <section>
  <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Software Engineering.php">Software Engineering</a></strong></div>
