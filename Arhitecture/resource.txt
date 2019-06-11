@@ -34,7 +34,7 @@ insert into resources values(33,"What is Object Oriented Programming (OOPS)? Sim
 insert into resources values(34,"Introduction to Software Paradigms and Procedural Programming Paradigm","trex/Resursa.php?id=34/");
 insert into resources values(35,"First Year Computing Course: An introduction to procedural programming","trex/Resursa.php?id=35/");
 insert into resources values(36,"Procedural programming paradigm","trex/Resursa.php?id=36/");
-insert into resources values(37,"Web Application Security—Past, Present, and Future","trex/Resursa.php?id=37/");
+insert into resources values(37,"Web Application Securityï¿½Past, Present, and Future","trex/Resursa.php?id=37/");
 insert into resources values(38,"WEB APPLICATION SECURITY","trex/Resursa.php?id=38/");
 insert into resources values(39,"Web Application Security","trex/Resursa.php?id=39/");
 insert into resources values(40,"Mobile Application Security: Who, How and Why","trex/Resursa.php?id=40/");

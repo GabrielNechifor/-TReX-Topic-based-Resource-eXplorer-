@@ -3,12 +3,10 @@ include_once 'log_in_buttons.php'
 ?>
 <?php 
 include 'dba.inc.php';
-
 $query= $conn->query("SELECT resourceId, AVG(nota) as rating from recomandari GROUP BY resourceId");
 $note=[];
 while($row=$query->fetch_object()){
     $note[]=$row;
-
 }
 ?>
 <!DOCTYPE html>
