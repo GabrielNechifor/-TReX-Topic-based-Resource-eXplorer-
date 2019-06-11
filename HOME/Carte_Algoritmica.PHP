@@ -6,6 +6,7 @@ date_default_timezone_set('Europe/Copenhagen');
 include 'dba.inc.php';
 include 'comments.inc.php';
 include 'rate.php';
+include 'bookmarks.php';
 ?>
 
 <?php 
@@ -69,8 +70,25 @@ while($row=$query->fetch_object()){
         foreach($note as $nota){
             if($nota->resourceId==$id)
             $rate=$nota->rating;
-        }?>
-        
+        }
+        $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
+            $result = $conn->query($sql);
+            while($row = $result->fetch_assoc()){
+            $userId=$row['id'];
+                            }?>
+       
+       <?php 
+        $sql="SELECT userId, resourceId from bookmarks where userId={$userId} and resourceId={$id} ";
+        $result = $conn->query($sql);
+        if(!$result->fetch_assoc()){
+        echo "<form method='POST' action='".setBookmarks($conn,$id)."'>
+            <input type='hidden' name='userId' value='".$userId."'>
+            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Add bookmark</i></button></form>";
+          }
+        else 
+        {echo "<form method='POST' action='".deleteBookmarks($conn,$id)."'>
+            <input type='hidden' name='userId' value='".$userId."'>
+            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Delete bookmark</i></button></form>";}?>
         <table id="table1">
         <?php
         $xml = new XMLReader();
@@ -104,15 +122,15 @@ while($row=$query->fetch_object()){
            </section>
         </article>
 
-        
+       
         <h2 align='center'>Rating Section:
-        <?php echo  round($rate,2)." / 5
-                                    <i class='fa fa-star colorated fa-2x'></i>";?></h2>
+        <?php echo  round($rate,2)." / 5<i class='fa fa-star colorated fa-2x'></i>";?>
+        </h2>
         
 
         <?php echo "<form method='POST' action='".setRating($conn)."'>";?>
         <?php echo "<input type='hidden' name='resourceId' value='".$id."'>
-                  <input type='hidden' name='userId' value='1'>
+                    <input type='hidden' name='userId' value='1'>
         <table align='center' class='rateTable'>
         <tr>
         <td>
