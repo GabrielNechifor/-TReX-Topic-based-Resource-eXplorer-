@@ -17,7 +17,7 @@ if (!$conn) {
 if(isset($_POST['search'])){
     $searchq = $_POST['search'];
 
-        $sql = "select * from resources where name like '%$searchq%';";
+        $sql = "select * from resurse where lower(name) like concat('%',lower('$searchq'),'%') or review like concat('%',lower('$searchq'),'%');";
 
      try {
         $result = $conn->query($sql);

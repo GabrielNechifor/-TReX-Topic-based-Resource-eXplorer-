@@ -34,8 +34,9 @@ include_once 'log_in_buttons.php'
 				</li>
 					<li><a href="Acasa.php"><Strong>Home</Strong></a></li>
 					<li><a href="#contact"><Strong>Contact</Strong></a></li>
-				  <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch"></a></li>
-        </ul>
+<li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
+</form>  </li>        </ul>
       </div>
   <section>
     <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Algorithmics.php">Algorithmics</a></strong></div>
