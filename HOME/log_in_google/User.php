@@ -17,6 +17,10 @@ class User {
             }
         }
     }
+
+    function getConn(){
+        return $this->db;
+    }
 	
 	function checkUser($userData = array()){
         if(!empty($userData)){
