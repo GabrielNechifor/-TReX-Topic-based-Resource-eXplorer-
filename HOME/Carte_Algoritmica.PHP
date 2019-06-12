@@ -7,6 +7,7 @@ include 'dba.inc.php';
 include 'comments.inc.php';
 include 'rate.php';
 include 'bookmarks.php';
+include 'tags.inc.php';
 ?>
 
 <?php 
@@ -116,6 +117,23 @@ while($row=$query->fetch_object()){
                 
             }
         ?>
+<tr>
+  <td>
+  Tags : 
+  </td>
+  <td>
+  <?php
+  getTags($conn,$id); 
+/*echo "   
+        <form method='POST' action='".getTags($conn,$id)."'>
+        <textarea name='name'></textarea>
+        <button type='submit' name='AddTag'>AddTags</button>
+        
+        </form>";*/
+       
+
+?></td>
+</tr>
             </table>
            </section>
         </article>
