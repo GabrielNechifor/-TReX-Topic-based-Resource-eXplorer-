@@ -1,5 +1,6 @@
 <?php
 
+require 'ResourceController.php';
 require 'UserController.php';
 
 class Controller{
@@ -7,7 +8,7 @@ class Controller{
     private $nume_controller=null;
     private $tip_request=null;
     private $corp_request=null;
-    private $parametru_uri=null;
+    private $parametru_uri=array();
 
     public function __construct() {
         $this->parse_url();
@@ -21,7 +22,9 @@ class Controller{
          if(!isset($uri[3])) { http_response_code(404);  exit;  }
             else $this->nume_controller=$uri[3];
 
-         if(isset($uri[4])) $this->parametru_uri=$uri[4];
+        $i=4;
+        $this->parametru_uri=array();
+        while(isset($uri[$i])) {$this->parametru_uri[]=$uri[$i]; $i++; }
 
          $this->tip_request = $_SERVER["REQUEST_METHOD"];
 
@@ -35,9 +38,16 @@ class Controller{
             $userController=new UserController($this->tip_request,$this->corp_request,$this->parametru_uri);
             return $userController->getResponse();
             break;
+            
+            case 'resources':
+            $resourceController=new ResourceController($this->tip_request,$this->corp_request,$this->parametru_uri);
+            return $resourceController->getResponse();
+            break;
+
             default: 
             http_response_code(404);
             return "{ \"message\" : \"Nu exista un constructor care trateaza constructorul\" }"; 
+
         }
 
     }

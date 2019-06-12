@@ -1,7 +1,5 @@
 <?php
 
-require $_SERVER['DOCUMENT_ROOT'].'/-TReX-Topic-based-Resource-eXplorer-/Server/Database/DatabaseConnection.php';
-
 class UserModel{
     private $conn=null;
 
