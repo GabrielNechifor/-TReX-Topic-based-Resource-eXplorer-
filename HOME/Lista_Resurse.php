@@ -92,14 +92,11 @@ while($row=$query->fetch_object()){
                                     $rate=$nota->rating;
                                 }
                                
-                                $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
-                                $result = $conn->query($sql);
-                                while($row = $result->fetch_assoc()){
-                                $userId=$row['id'];
-                            }
+                            
                                 echo "<p id=\"obliqueFont\">".($xml->value)."</p>";
                                 
-                                echo "<i class='fa fa-star colorated fa-2x' style='float:right'></i>
+                                echo "
+                                    <i class='fa fa-star colorated fa-2x' style='float:right'></i>
                                       <p style='float:right'>Rating:".round($rate,2)." / 5</p><br><br></li>
                                     ";
                             

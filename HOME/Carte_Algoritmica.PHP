@@ -70,14 +70,16 @@ while($row=$query->fetch_object()){
             if($nota->resourceId==$id)
             $rate=$nota->rating;
         }
+        if($output!='<a href="log_in_google/"><button class="buttons">Log in</button></a>'){
         $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
             $result = $conn->query($sql);
             while($row = $result->fetch_assoc()){
             $userId=$row['id'];
-                            }?>
+                            }}?>
        
        <?php 
-        $sql="SELECT userId, resourceId from bookmarks where userId={$userId} and resourceId={$id} ";
+       if($output!='<a href="log_in_google/"><button class="buttons">Log in</button></a>'){
+        $sql="SELECT userId, resourceId from bookmarks where userId={$userId} and resourceId={$id}";
         $result = $conn->query($sql);
         if(!$result->fetch_assoc()){
         echo "<form method='POST' action='".setBookmarks($conn,$id)."'>
@@ -87,7 +89,8 @@ while($row=$query->fetch_object()){
         else 
         {echo "<form method='POST' action='".deleteBookmarks($conn,$id)."'>
             <input type='hidden' name='userId' value='".$userId."'>
-            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Delete bookmark</i></button></form>";}?>
+            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Delete bookmark</i></button></form>";
+            }}?>
         <table id="table1">
         <?php
         $xml = new XMLReader();
@@ -133,14 +136,17 @@ while($row=$query->fetch_object()){
            </section>
         </article>
 
-       
+        
         <h2 align='center'>Rating Section:
         <?php echo  round($rate,2)." / 5<i class='fa fa-star colorated fa-2x'></i>";?>
         </h2>
         
-
+        
         <?php echo "<form method='POST' action='".setRating($conn)."'>";?>
-        <?php echo "<input type='hidden' name='resourceId' value='".$id."'>
+        <?php 
+        if($output!= '<a href="log_in_google/"><button class="buttons">Log in</button></a>')
+        {
+          echo "<input type='hidden' name='resourceId' value='".$id."'>
                     <input type='hidden' name='userId' value='1'>
         <table align='center' class='rateTable'>
         <tr>
@@ -263,19 +269,18 @@ while($row=$query->fetch_object()){
         </tr>
         </table>
         
-        
         <button type='submit' name='Submit' class='buttonRate'>Submit</button>
         <br>
-          </form>"?>
+          </form>"; }?>
      <br>
-
+       
 <?php
+if($output!='<a href="log_in_google/"><button class="buttons">Log in</button></a>'){
 $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
 $result = $conn->query($sql);
 while($row = $result->fetch_assoc()){
   $userId=$row['id'];
-}?>
-<?php
+}
 echo "
         <form method='POST' action='".setComments($conn)."'>
         <input type='hidden' name='userId' value='".$userId."'>
@@ -284,8 +289,9 @@ echo "
         <textarea name='text' placeholder='Add a comment..'></textarea>
         <br>
         <button type='submit' name='commentSubmit' class='buttonsComment'>Comment</button>
-        </form>";
+        </form>";}
 echo "<br><div class='container'>";
+
 getComments($conn,$id); 
 echo "</div>";
 ?>
