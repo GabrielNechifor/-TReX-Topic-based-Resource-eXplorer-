@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CCS>
+  <domain category="Algorithmics">
+        <subdomain category="Algorithm design">
+             <article id="1">
+                     <type>PDF Book</type>
+                     <name>Algorithm Design</name>
+                     <authors>Jon Kleinberg, Eva Tardos</authors>
+                     <publisher> Pearson Education, Inc</publisher>
+                     <publication_date>2006</publication_date>
+                     <review>The goal of this book is to convey this approach to algorithms, as a design
+process that begins with problems arising across the full range of computing
+applications, builds on an understanding of algorithm design techniques, and
+results in the development of efficient solutions to these problems.The text encourages an 
+ understanding of the algorithm design process and an appreciation of the role of algorithms 
+ in the broader field of computer science.</review>
+                     <embed_resource>resources/Algorithm Design.pdf</embed_resource>
+             </article>
+             <article id="2">
+                     <type>PDF Book</type>
+                     <name>The Algorithm Design Manual</name>
+                     <authors>Steven S. Skiena</authors>
+                     <publisher>Springer-Verlag London Limited</publisher>
+                     <publication_date>2008</publication_date>
+                     <review>Expanding on the first edition, the book now serves as the primary textbook of choice for algorithm design
+courses while maintaining its status as the premier practical reference guide to algorithms for programmers, researchers, and students.
+Three aspects of The Algorithm Design Manual have been particularly beloved:
+(1) the catalog of algorithmic problems, (2) the war stories, and (3) the electronic
+component of the book. These features have been preserved and strengthened in
+this edition.</review>
+                     <embed_resource>resources/SkienaTheAlgorithmDesignManual.pdf</embed_resource>
+             </article>
+             <article id="3">
+                    <type>Youtube Video</type>
+                    <name>Principles of Algorithm Design</name>
+                    <instructor>Victor Costan</instructor>
+                    <publisher>MIT OpenCourseWare Youtube Channel</publisher>
+                    <publication_date>Fall 2011</publication_date>
+                    <review>This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, 
+algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between 
+algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.</review>
+                    <resource>https://www.youtube.com/watch?v=a_otxyu0mSQt=11sfbclid=IwAR19QXBNXjM1Xhn_CpiSgkJzfRjIIFuY2cP6IyAZxFkqoECHq_T_OMf2FVs</resource>
+                    <embed_resource>https://www.youtube.com/embed/a_otxyu0mSQ</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Algorithmic complexity theory">
+             <article id="4">
+                     <type>PDF Book</type>
+                     <name>A complexity theory of efficient parallel algorithms</name>
+                     <authors>Clyde P.Kruskal, Larry Rudolph, Marc Snir</authors>
+                     <publisher>Theoretical Computer Science 71 (1990 95 132) North-Holland</publisher>
+                     <review>This paper outlines a theory of parallel algorithms that emphasizes two crucial aspects
+of parallel computation: speedup the improvement in running time due to parallelism, and efficiency ,;
+the ratio of work done by a parallel algorithm to the work done by a sequential algorithm.
+We meet many open problems motivated by thei approach are listed.</review>
+                     <embed_resource>resources/A COMPLEXITY THEORY OF EFFICIENT PARALLEL ALGORlTHMS.pdf</embed_resource>
+             </article>
+             <article id="5">
+                     <type>Youtube Video</type>
+                     <name>Algorithmic Complexity</name>
+                     <authors>Damian Gordon</authors>
+                     <publisher>Damian T. Gordon</publisher>
+                     <publication_date>11.09.2015</publication_date>
+                     <review>In this video we are going to look at the complexity of an algorithm, so we call that algorithmic complexity by complexity what he means is 
+how long does it take a program to run ,so we have been talking about the searching already in the sorting and how differrent searches are 
+quicker, so we have a whole science in computer science looking at the way we measure how efficient an algorithm is and ways to optimize it.</review>
+                     <resource>https://www.youtube.com/watch?v=eyRBuByJByEfbclid=IwAR2FC2uqOmOjcgkL7NiUEZxEbVB25mjcSx7RlmxfVf9CIVkLF2rhGumHLAs</resource>
+                     <embed_resource>https://www.youtube.com/embed/eyRBuByJByE</embed_resource>
+             </article>
+             <article id="6">
+                     <type>PDF Article</type>
+                     <name>On the Sphere-Decoding Algorithm I. Expected Complexity </name>
+                     <authors>Babak Hassibi and Haris Vikalo</authors>
+                     <publisher>IEEE TRANSACTIONS ON SIGNAL PROCESSING, VOL. 53, NO. 8</publisher>
+                     <publication_date>AUGUST 2005 </publication_date>
+                     <review>The problem of finding the least-squares solution to a system of linear equations where the unknown 
+vector is comprised of integers, but the matrix coefficient and given vector are comprised of real numbers, arises in many applications: communications, cryptography, GPS, to name a few. 
+The problem is equivalent to finding the closest lattice point to a given point and is known to be NP-hard.</review>
+                     <embed_resource>resources/HASieeetsp05.pdf</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Hardness of problems">
+             <article id="7">
+                     <type>PDF Lecture</type>
+                     <name>Probabilistically Checkable Proofs and Hardness of Approximation</name>
+                     <lecturer>Dana Moshkovitz</lecturer>
+                     <scribe>Dana Moshkovitz</scribe>
+                     <publication_date>Fall 2010</publication_date>
+                     <review>In this course we will focus on approximations and  Hardness of Approximation, which contain 
+"The Connection Between Hardness of Approximation and Probabilistic","Checking of Proofs","Probabilistic Checking of Proofs" and 
+"Gap Problems".This is very useful for students to understand this concept.</review>
+                     <embed_resource>resources/1-intro.pdf</embed_resource>
+             </article>
+             <article id="8">
+                     <type>PDF Lecture</type>
+                     <name>Complexity and Reductions</name>
+                     <lecturer>Rong Ge</lecturer>
+                     <scribe>Chenwei Wu</scribe>
+                     <publication_date>April 2016</publication_date>
+                     <review>In this lecture, we will learn the basic knowledge of Complexity and Reductions and see many
+examples of them. We begin with defining the hardness of problems and then study reduction,
+which is the standard way to compare the hardness of problems. We then formalize the notion of
+easy problem as the class P and introduce a more general class NP. Finally, we define NP-Complete
+problems, which are considered the hardest problems in NP.</review>
+                     <embed_resource>resources/lecture22scribe.pdf</embed_resource>
+             </article>
+             <article id="9">
+                     <type>Youtube Video</type>
+                     <name>Understanding NP Complete and NP Hard Problems</name>
+                     <publisher>HowTo Youtube Channel</publisher>
+                     <publication_date>27.04.2017</publication_date>
+                     <review>In this video we have NP-hard-- Now suppose we found that A is reducible to B, then it means that B is at least as hard as A 
+and NP-Complete -- The group of problems which are both in NP and NP-hard are known as NP-Complete problem.</review>
+                     <resource>https://www.youtube.com/watch?v=LMWumfmjB0gfbclid=IwAR2BH7BsvnyBq6hxq0FZf2cDoryPHFwFLDrCyzaD9obwUi0jz6cjcTZ_mqw</resource>
+                     <embed_resource>https://www.youtube.com/embed/LMWumfmjB0g</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+  <domain category="Software Engineering">
+        <subdomain category="Software requirements">
+             <article id="10">
+                     <type>Tutorial</type>
+                     <name>Software Requirements</name>
+                     <publisher>www.tutorialspoint.com</publisher>
+                     <review>In this article we talk about software requirements.The software requirements are description of features and functionalities 
+of the target system. Requirements convey the expectations of users from the software product.</review>
+                     <resource>https://www.tutorialspoint.com/software_engineering/software_requirements.htm</resource>
+             </article>
+             <article id="11">
+                     <type>PDF Article</type>
+                     <name>Safety Analysis of Software Requirements: Model and Process</name>
+                     <authors>Shaojun Li, Suo Duo</authors>
+                     <publisher>www.sciencedirect.com</publisher>
+                     <publication_date>2014</publication_date>
+                     <review>This article contains information about software requirements.Since lots of software hazards are caused by incompleteness or
+ omissions of requirements, safety analysis of software requirements becomes more and more important. However, there are no 
+ systematic researches and exposition on the scope and the requirements of safety analysis.</review>
+                     <embed_resource>resources/1-s2.0-S1877705814011643-main.pdf</embed_resource>
+             </article>
+             <article id="12">
+                     <type>Youtube Video</type>
+                     <name>Different Types of Software Requirement - Functional, Non-Functional - SE</name>
+                     <lecturer>Hindi</lecturer>
+                     <publisher>Easy Engineering Classes Youtube Channel</publisher>
+                     <publication_date>18.11.2017</publication_date>
+                     <review>This video present us the "Different Types of Software Requirement - Functional, Non-Functional" by SE Lectures Hindi.</review>
+                     <resource>https://www.youtube.com/watch?v=QhJSlFWFICMfbclid=IwAR3IsbK9J6ixbOhtafuwI472AHT6ZG9144KuXTVGzLLmU6IWg8kmPrNvdf0</resource>
+                     <embed_resource>https://www.youtube.com/embed/QhJSlFWFICM</embed_resource>
+             </article>
+
+        </subdomain>
+        <subdomain category="Software design">
+             <article id="13">
+                     <type>Tutorial</type>
+                     <name>Software Design Basics</name>
+                     <publisher>www.tutorialspoint.com</publisher>
+                     <review>In this article we talk about software design .Software design is a process to transform user requirements into some 
+suitable form, which helps the programmer in software coding and implementation.Software design is the first step in 
+SDLC (Software Design Life Cycle), which moves the concentration from problem domain to solution domain. It tries to 
+specify how to fulfill the requirements mentioned in SRS.</review>
+                     <resource>https://www.tutorialspoint.com/software_engineering/software_design_basics.htm</resource>
+             </article>
+             <article id="14">
+                     <type>Youtube Video</type>
+                     <name>Software design description</name>
+                     <publisher>wikipedia tts Youtube Channel</publisher>
+                     <publication_date>13.01.2019</publication_date>
+                     <review>In this video we discuss about software design .A software design description is a written description of a software product,
+ that a software designer writes in order to give a software development team overall guidance to the architecture of the software project.</review>
+                     <resource>https://www.youtube.com/watch?v=3p0fKLwnfF8fbclid=IwAR0NZhNG2pIs4qa7SY-mWLR_E7gJDZUgDMAg20DN6fAVuOwngeX3WV1aLzk</resource>
+                     <embed_resource>https://www.youtube.com/embed/3p0fKLwnfF8</embed_resource>
+             </article>
+             <article id="15">
+                     <type>PDF Book</type>
+                     <name>SOFTWARE DESIGN</name>
+                     <authors>David Budgen</authors>
+                     <publisher>Pearson Education Limited</publisher>
+                     <publication_date>2003</publication_date>
+                     <review>Indeed, the production of this second edition (which I hope builds the walls a little higher at least), was motivated by the way that the first edition of this book has been generally
+well received by both teachers and students (a situation which is gratifying to any author!). In terms of its wider role, one of the more external signs of the recognition of its
+ ‘foundational’ status is the extent to which it was cited in the Trial Version of the IEEE’s SWEBOK (Software Engineering Body of Knowledge).However, technology and design thinking march 
+on, albeit not always at the same rate and, in preparing this second edition, the material from the first edition has been extensively revised and rewritten to reflect the many changes 
+that have occurred since it was published.</review>
+                     <embed_resource>resources/otro.bueno.pdf</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Software construction">
+              <article id="16">
+                     <type>Wiki Article</type>
+                     <name>Software Construction</name>
+                     <publisher>swebokwiki</publisher>
+                     <review>This article present us about software construction .The term software construction refers to the detailed creation of working software
+ through a combination of coding, verification, unit testing, integration testing, and debugging.The Software Construction knowledge area
+ (KA) is linked to all the other KAs, but it is most strongly linked to Software Design and Software Testing because the software construction
+ process involves significant software design and testing.</review>
+                     <resource>http://swebokwiki.org/Chapter_3:_Software_Construction</resource>
+             </article>
+             <article id="17">
+                     <type>Article</type>
+                     <name>SOFTWARE CONSTRUCTION</name>
+                     <authors>Terry Bollinger, Philippe Gabrini, Louis Martin </authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>January 2001</publication_date>
+                     <review>Techniques of software construction are largely craft-based. As we come to understand the techniques better, we can explain them in terms of
+ principles that can be explained as part of engineering knowledge. This description will therefore describe the underlying engineering 
+ principles in some detail and treat the specific craft-based techniques more briefly, usually just by naming them.</review>
+                     <resource>https://www.researchgate.net/publication/237658594_SOFTWARE_CONSTRUCTION</resource>
+             </article>
+             <article id="18">
+                     <type>Youtube Video</type>
+                     <name>Software Construction</name>
+                     <authors>Gary Boetticher</authors>
+                     <publisher>GaryBoetticher Youtube Channel</publisher>
+                     <publication_date>31.08.2017</publication_date>
+                     <review> This video indroduces Software Construction and discusses the merits of studyng software construction .Course goals are identified. A general 
+ overview of UML  is presented.</review>
+                     <resource>https://www.youtube.com/watch?v=AEkm0IvFK8w</resource>
+                     <embed_resource>https://www.youtube.com/embed/AEkm0IvFK8w</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Software testing">
+             <article id="19">
+                     <type>Tutorial</type>
+                     <name>Software Testing Tutorial: Free Course</name>
+                     <publisher>www.guru99.com</publisher>
+                     <review>In this course, you will learn basic skills and concepts of Software Testing. Lessons are taught using REAL-LIFE Examples for improved
+ learning.Refer the tutorials sequentially one after the other.</review>
+                     <resource>https://www.guru99.com/software-testing.html</resource>
+             </article>
+             <article id="20">
+                     <type>Youtube Video</type>
+                     <name>Software Testing Training</name>
+                     <publisher>Software Testing Help Youtube Channel</publisher>
+                     <publication_date>08.08.2013</publication_date>
+                     <review>This video is very necessary if you want to know about software testing because it contains many information about  software testing 
+ training ,QA training and software testing course .It is the best way to learn quicly and efficient about that.</review>
+                     <resource>https://www.youtube.com/watch?v=kpT95Jb3t3U</resource>
+                     <embed_resource>https://www.youtube.com/embed/kpT95Jb3t3U</embed_resource>
+             </article>
+             <article id="21">
+                     <type>PDF Book</type>
+                     <name>The Art of Software Testing,Second Edition</name>
+                     <authors>Glenford J. Myers</authors>
+                     <publisher>Word Association, Inc.</publisher>
+                     <publication_date>2004</publication_date>
+                     <review>The version you are reading today retains that same foundational philosophy. We have updated the examples to include more current programming languages, and we have addressed topics
+that no one knew about when Myers wrote the first edition: Web programming, e-commerce,and Extreme Programming and Testing.</review>
+                     <resource>http://barbie.uta.edu/~mehra/Book1_The%20Art%20of%20Software%20Testing.pdf</resource>
+             </article>
+        </subdomain>
+        <subdomain category="Software maintenance">
+             <article id="22">
+                     <type>Tutorial</type>
+                     <name>Software Maintenance Overview</name>
+                     <publisher>www.tutorialspoint.com</publisher>
+                     <review>In this article we talk about software maintenance. Software maintenance is widely accepted part of SDLC now a days. It stands for all
+ the modifications and updations done after the delivery of software product.</review>
+                     <resource>https://www.tutorialspoint.com/software_engineering/software_maintenance_overview.htm</resource>
+             </article>
+             <article id="23">
+                     <type>Article</type>
+                     <name>Software Maintenance</name>
+                     <publisher>www.geeksforgeeks.org</publisher>
+                     <review>This article conteins information about software maintenance and we learn what is it .Then, Software Maintenance is the process of modifying
+ a software product after it has been delivered to the customer. The main purpose of software maintenance is to modify and update software 
+ application after delivery to correct faults and to improve performance.</review>
+                     <resource>https://www.geeksforgeeks.org/software-engineering-software-maintenance/</resource>
+             </article>
+             <article id="24">
+                     <type>Youtube Video</type>
+                     <name>What is Software Maintenance</name>
+                     <publisher>i4hq Youtube Channel</publisher>
+                     <publication_date>21.12.2010</publication_date>
+                     <review>This video is very helpfull for developer and another personnel involved in developing software to have concrete steps that they can 
+ can use to create maintainable software ,so good luck to understand the following notions.</review>
+                     <resource>https://www.youtube.com/watch?v=8CO29Pbyjx0</resource>
+                     <embed_resource>https://www.youtube.com/embed/8CO29Pbyjx0</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Software engineering management">
+             <article id="25">
+                     <type>PDF Article</type>
+                     <name>SOFTWARE ENGINEERING MANAGEMENT</name>
+                     <authors>Stephen G. MacDonell and Andrew R. Gray</authors>
+                     <publisher>IEEE</publisher>
+                     <publication_date>May 2001</publication_date>
+                     <review>This is the current draft (version 0.9) of the knowledge area
+description for Software Engineering Management. The
+primary goals of this document are to:define the Software Engineering Management knowledge area, present a breakdown of the knowledge area 
+in an hierarchical topic framework,provide a list of references that addresses the topics in the breakdown, provide a topic-reference matrix,
+and  provide a list of further readings and supplementary references that also address topics in this knowledge area.</review>
+                     <embed_resource>resources/c45a7d169ca507329d4b2f028862c20b02c3.pdf</embed_resource>
+             </article>
+             <article id="26">
+                     <type>Article</type>
+                     <name>What software engineering management is like</name>
+                     <authors>Jake Wilson</authors>
+                     <publisher>thinkfaster.co</publisher>
+                     <publication_date>04.03.2017</publication_date>
+                     <review>This article presents us the Jake Wilson's opinion about software engineering management. He tells us about his experience in this domain.
+So we should  learn from his words, because it is a big advantage for our future career,being presented real life situations.</review>
+                     <resource>https://thinkfaster.co/2017/03/what-software-engineering-management-is-like/</resource>
+             </article>
+             <article id="27">
+                     <type>Youtube Video</type>
+                     <name>Software Engineering Management</name>
+                     <publisher>LearnEveryone Youtube Channel</publisher>
+                     <publication_date>10.02.2017</publication_date>
+                     <review>This video will present us informtion  about software engineering management. The main issues from this video are: Plan-as much as possible 
+,but not too much ,up front and Control-continuously.</review>
+                     <resource>https://www.youtube.com/watch?v=3GeLW2VzXQc</resource>
+                     <embed_resource>https://www.youtube.com/embed/3GeLW2VzXQc</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+  <domain category="Programming Paradigms">
+        <subdomain category="Functional Programming">
+             <article id="28">
+                     <type>Tutorial</type>
+                     <name>Functional Programming - Introduction</name>
+                     <publisher>www.tutorialspoint.com</publisher>
+                     <review>In this article we talk about "Functional Programming - Introduction" .Functional programming languages are specially designed to handle 
+symbolic computation and list processing applications. Functional programming is based on mathematical functions. Some of the popular 
+functional programming languages include: Lisp, Python, Erlang, Haskell, Clojure, etc.</review>
+                     <resource>https://www.tutorialspoint.com/functional_programming/functional_programming_introduction.htm</resource>
+             </article>
+             <article id="29">
+                     <type>Tutorial</type>
+                     <name>Functional Programming Paradigm</name>
+                     <publisher>www.geeksforgeeks.org</publisher>
+                     <review>Functional programming is a programming paradigm in which we try to bind everything in pure mathematical functions style. It is a
+ declarative type of programming style. Its main focus is on “what to solve” in contrast to an imperative style where the main focus is 
+ “how to solve”. It uses expressions instead of statements. An expression is evaluated to produce a value whereas a statement is executed 
+ to assign variables. Those functions have some special features discussed below.</review>
+                     <resource>https://www.geeksforgeeks.org/functional-programming-paradigm/</resource>
+             </article>
+             <article id="30">
+                     <type>Wikipedia Article</type>
+                     <name>Functional Programming</name>
+                     <publisher>wikipedia.org</publisher>
+                     <review>In this article we will find information about Functional Programming. It contains information about history, concepts, using in industry, in education.
+                      Furthermore, it has some ways to comparison with imperative programming, using more programing languages.</review>
+                     <resource>https://en.wikipedia.org/wiki/Functional_programming</resource>
+             </article>
+        </subdomain>
+        <subdomain category="Object Orientated Programing">
+              <article id="31">
+                     <type>Article</type>
+                     <name>How to explain object-oriented programming concepts to a 6-year-old</name>
+                     <authors>Alexander Petkov</authors>
+                     <publisher>freecodecamp.org</publisher>
+                     <publication_date>27.01.2017</publication_date>
+                     <review>In this article we talk about "How to explain object-oriented programming concepts to a 6-year-old". You will find some question which
+ can help you to understand much better this concept.</review>
+                     <resource>https://medium.freecodecamp.org/object-oriented-programming-concepts-21bb035f7260</resource>
+             </article>
+             <article id="32">
+                     <type>Tutorial</type>
+                     <name>Basic Concepts of Object Oriented Programming using C++</name>
+                     <publisher>www.geeksforgeeks.org</publisher>
+                     <review>Object oriented programming – As the name suggests uses objects in programming. Object oriented programming aims to implement real world
+ entities like inheritance, hiding, polymorphism etc in programming. The main aim of OOP is to bind together the data and the functions
+ that operates on them so that no other part of code can access this data except that function.Let us learn about different characteristics of an Object Oriented Programming language:
+Object: Objects are basic run-time entities in an object oriented system, objects are instances of a class these are defined user defined
+ data types.</review>
+                     <resource>https://www.geeksforgeeks.org/basic-concepts-of-object-oriented-programming-using-c/</resource>
+             </article>
+             <article id="33">
+                     <type>Youtube Video</type>
+                     <name>What is Object Oriented Programming (OOP)? Simple Explanation for Beginners</name>
+                     <publisher>Studytonight Youtube Channel</publisher>
+                     <publication_date>06.01.2018</publication_date>
+                     <review>Object-Oriented Programming is a programming style related to concepts of Class, Objects, and various other concepts like Inheritance,
+ Abstraction, Encapsulation, and Polymorphism. In this video, we have explained What is OOP? and What are other concepts related to OOP,
+ using a very basic example of Human Beings.</review>
+                     <resource>https://www.youtube.com/watch?v=xoL6WvCARJY</resource>
+                     <embed_resource>https://www.youtube.com/embed/xoL6WvCARJY</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Procedural Programming">
+             <article id="34">
+                     <type>Sample Courseware</type>
+                     <name>Introduction to Software Paradigms and Procedural Programming Paradigm</name>
+                     <publisher>coronet.iicm.tugraz.at</publisher>
+                     <review>This Lesson introduces main terminology to be used in the whole course. Thus, we discuss the terms "Programming Language", "Software Paradigm", "Software
+Architecture", "Design Pattern" and "Software Engineering" from a generalperspective.The lesson breafly discusses a well-known procedural
+ programming paradigm and main principles of software engineering.</review>
+                     <embed_resource>resources/swp1.pdf</embed_resource>
+             </article>
+             <article id="35">
+                     <type>Course</type>
+                     <name>First Year Computing Course: An introduction to procedural programming</name>
+                     <authors>Dr. G.A. Wynn, Dr R.G. West, Prof. R. Willingale</authors>
+                     <publisher>Department of Physics and Astronomy, University of Leicester</publisher>
+                     <publication_date>September 2012</publication_date>
+                     <review>All of these tasks(experiment control,data collection,data analysis,image processing,computational physics,word processing require 
+the use of simple keyboard skills, text editing, simple operating)system commands and software that other people have written. The next 
+section provides a brief introduction to these simple skills. In addition, as a physicist, you will also want to programme computers 
+yourself to solve problems and perform tasks which you have devised. To do this you will need to learn how to tell a computer what you 
+want it to do.This workshop is your first step towards becoming a competent computer programmer as well as a skilled computer user.</review>
+                     <embed_resource>resources/1styearc.pdf</embed_resource>
+             </article>
+             <article id="36">
+                     <type>Youtube Video</type>
+                     <name>Procedural programming paradigm</name>
+                     <publisher>Ravindra K Youtube Channel</publisher>
+                     <publication_date>04.01.2017</publication_date>
+                     <review>In this video we will discuss about " Procedural Programming Paradigm" and we will understand much better this aspect.It is very helpfull 
+ for the people who want to know how it function.</review>
+                     <resource>https://www.youtube.com/watch?v=L2TCrXY1qgw</resource>
+                     <embed_resource>https://www.youtube.com/embed/L2TCrXY1qgw</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+  <domain category="Information security">
+        <subdomain category="Web application security">
+             <article id="37">
+                     <type>Article</type>
+                     <name>Web Application Security—Past, Present, and Future</name>
+                     <authors>Yao-Wen Huang, D.T. Lee</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>January 2005</publication_date>
+                     <review>Web application security remains a major roadblock to universal acceptance of the Web for many kinds of online transactions, especially
+ since the recent sharp increase in remotely exploitable vulnerabilities has been attributed to Web application bugs. In software 
+ engineering, software testing is an established and well-researched process for improving software quality. Recently, formal verification 
+ tools have also shown success in discovering vulnerabilities in C programs. In this chapter we shall discuss how to apply software testing 
+ and verification algorithms to Web applications and improve their security attributes.</review>
+                     <resource> https://www.researchgate.net/publication/226719052_Web_Application_Security-Past_Present_and_Future</resource>
+             </article>
+             <article id="38">
+                     <type>Article</type>
+                     <name>WEB APPLICATION SECURITY</name>
+                     <publisher>The Government of the Hong Kong Special Administrative Region</publisher>
+                     <publication_date>February 2008</publication_date>
+                     <review>Advances in web technologies coupled with a changing business environment, mean that web applications are becoming more prevalent in
+ corporate, public and Government services today. Although web applications can provide convenience and efficiency, there are also a number 
+ of new security threats, which could potentially pose significant risks to an organisation‟s information technology infrastructure if not 
+ handled properly. This article discusses critical web application vulnerabilities and how they can be addressed during different phases of
+ a system development lifecycle. Tips on how to surf the Internet safely are also provided to end-users, as these can be the weakest link
+ in web application information security.</review>
+                     <embed_resource>resources/web_app.pdf</embed_resource>
+             </article>
+             <article id="39">
+                     <type>Youtube Video</type>
+                     <name>Web Application Security</name>
+                     <publisher>acunetix Youtube Channel</publisher>
+                     <publication_date>15.02.2010</publication_date>
+                     <review>In this video we give a brief overview about web application security.  We will see:"What is the difference between network security and web
+ security","Why firewalls and network security scanners are not a website security solution","Why web application firewalls are not a
+ complete web application security solution","How to secure your website or web application","What are automated web vulnerability scanners",
+ "Advantages of automated web vulnerability scanners".</review>
+                     <resource>https://www.youtube.com/watch?v=XGy-lHlk_Cw</resource>
+                     <embed_resource>https://www.youtube.com/embed/XGy-lHlk_Cw</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Mobile application security">
+             <article id="40">
+                     <type>PDF Presentation</type>
+                     <name>Mobile Application Security: Who, How and Why</name>
+                     <authors>Mike Park </authors>
+                     <publisher>TrustWave</publisher>
+                     <publication_date>2012</publication_date>
+                     <review>In this pdf we will discuss about :"The Big Picture","Attack Points","Fun with Android","Fun with iOS","Developer Guidelines"and 
+"Conclusions".</review>
+                     <embed_resource>resources/ASDC12-Mobile_Application_Security_Who_how_and_why.pdf</embed_resource>
+             </article>
+             <article id="41">
+                     <type>PDF Presentation</type>
+                     <name>MOBILE APPLICATION SECURITY</name>
+                     <authors> Ramkumar Murugadoss and Arif Nasim</authors>
+                     <publisher>Alten CALSOFTLABS</publisher>
+                     <review>The objective of this paper is to help the developer community across organizations apply necessary security mechanisms while
+building their mobile applications.</review>
+                     <embed_resource>resources/Mobile-Application-Security.pdf</embed_resource>
+             </article>
+             <article id="42">
+                     <type>Youtube Video</type>
+                     <name>Mobile App Security</name>
+                     <speaker>Ankit Bhardwaj</speaker>
+                     <publisher>ANA Cyber Forensic Youtube Channel</publisher>
+                     <publication_date>13.07.2016</publication_date>
+                     <review>The Speaker - Ankit Bhardwaj is going to talk about the importance of Mobile App Security and its Impact on Business.So, it is 
+very important for any business to secure their apps before it goes live. Mobile applications and related security breaches receive a lot
+ of media attention You cannot be 100% safe, but you can make it hard – Defense in Depth Know your data.</review>
+                     <resource>https://www.youtube.com/watch?v=WFmDs73lMTI</resource>
+                     <embed_resource>https://www.youtube.com/embed/WFmDs73lMTI</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Network security">
+             <article id="43">
+                     <type>Article</type>
+                     <name>Network Security and Types of Attacks in Network</name>
+                     <authors>Mohandas Pawar, J. Anuradha</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>May 2015</publication_date>
+                     <review>The computer network technology is developing rapidly, and the development of internet technology is more quickly, people more aware of
+ the importance of the network security. Network security is main issue of computing because many types of attacks are increasing day by 
+ day. In mobile ad-hoc network the nodes are independent. Protecting computer and network security are critical issues. The malicious nodes
+ create a problem in the network. This malicious nodes acts as selfishness, It can use the resources of other nodes and preserve the
+ resources of its own. After analyzing and quantifying the network information security elements confidentiality, integrity and availability,
+ this paper describes the network security confidentiality vector, network security integrity vector and network security availability
+ vector; also we present some major type of attacks in MANET.</review>
+                     <resource>https://www.researchgate.net/publication/277723629_Network_Security_and_Types_of_Attacks_in_Network</resource>
+             </article>
+             <article id="44">
+                     <type>PDF Book</type>
+                     <name>Fundamentals of Network Security </name>
+                     <authors>John E. Canavan </authors>
+                     <publisher>ARTECH HOUSE, INC.</publisher>
+                     <publication_date>2001</publication_date>
+                     <review>In this book the author  tried to cover principles and concepts that are applicable to all operating systems. Whenever possible, he has 
+ also tried to provide useful examples of the practical application of those principles and concepts. </review>
+                     <embed_resource>resources/Fundamentals of Network Security.pdf</embed_resource>
+             </article>
+             <article id="45">
+                     <type>Youtube Video</type>
+                     <name>Network Security Tutorial | Introduction to Network Security | Network Security Tools</name>
+                     <publisher>edureka! Youtube Channel</publisher>
+                     <publication_date>19.08.2018</publication_date>
+                     <review>This Edureka video gives an introduction to Network Security and its nuances. Topics covered in this video are:"Need for Network Security",
+"What is Network Security","Security in the Network, Transport and Application Layer" and "Network Security for Business".</review>
+                     <resource>https://www.youtube.com/watch?v=6Jubl1UnJTE</resource>
+                     <embed_resource>https://www.youtube.com/embed/6Jubl1UnJTE</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Reverse engineering">
+             <article id="46">
+                     <type>PDF Course</type>
+                     <name>Reverse Engineering: The Crash Course</name>
+                     <authors>Satria Ady Pradana</authors>
+                     <publisher>SlideShare</publisher>
+                     <publication_date>Jan 19, 2018</publication_date>
+                     <review>Explaining Reversing Originally used in the context of mechanical engineering; Breaks down an existing object or system to its construction and then rebuild it based on new demand. Extracting knowledge or design information from anything man- made and reproducing it or reproduce anything based on the extracted information.</review>
+                     <embed_resource>https://www.slideshare.net/slideshow/embed_code/key/1aLjIbTr4wWYVD</embed_resource>
+             </article>
+             <article id="47">
+                     <type>Article</type>
+                     <name>Introduction to Reverse Engineering</name>
+                     <authors>Vinesh Raja</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>October 2007</publication_date>
+                     <review>This chapter introduces readers to the term reverse engineering (RE), and to the associated techniques that can be used for scanning physical 
+ parts. In addition, the chapter presents the process of reverse engineering and the strategy for scanning and converting the scanned data 
+ into a 3-D surface or solid model.</review>
+                     <resource>https://www.researchgate.net/publication/226320946_Introduction_to_Reverse_Engineering</resource>
+             </article>
+             <article id="48">
+                     <type>Youtube Video</type>
+                     <name>Reverse Engineering Basics</name>
+                     <speaker>Ian Guile</speaker>
+                     <publisher>Layer 8 Youtube Channel</publisher>
+                     <publication_date>13.05.2015</publication_date>
+                     <review>In this video ,Ian Guile is giving a presentation on the basics of reverse engineering windows applications, including an introduction 
+ into assembly.It is very helpfull for every person who want to know more information about this topic.</review>
+                     <resource>https://www.youtube.com/watch?v=a2EkORFcSZo</resource>
+                     <embed_resource>https://www.youtube.com/embed/a2EkORFcSZo</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+  <domain category="Web technologies">
+        <subdomain category="Front-End">
+             <article id="49">
+                     <type>PDF Book</type>
+                     <name>Front-End Developer Handbook</name>
+                     <authors>Cody Lindley</authors>
+                     <publisher>Frontend Masters</publisher>
+                     <publication_date>2017</publication_date>
+                     <review>This is a guide that anymore use to learn about the practice of front-end development.It broadly outlines and discusses the practice of front-end engineering how to learn it and what tools
+are used when practicing it in 2017.It is specially written with the intention of being a professional resource for potential and currently practicing front-end developers to equip themselves 
+with learning materials and development tools.</review>
+                     <embed_resource>resources/front-end-handbook-2017.pdf</embed_resource>
+             </article>
+             <article id="50">
+                     <type>HTML Book</type>
+                     <name>Front-End Developer Handbook</name>
+                     <authors>Cody Lindley</authors>
+                     <publisher>Frontend Masters</publisher>
+                     <publication_date>2018</publication_date>
+                     <review>This article presents us information about "Front-End".Front-end web development, also known as client-side development is the practice of producing HTML, CSS and JavaScript for a website or 
+Web Application so that a user can see and interact with them directly. The objective of designing a site is to ensure that when the users open up the site they see the information in a format 
+that is easy to read and relevant.</review>
+                     <resource>https://frontendmasters.com/books/front-end-handbook/2018/what-is-a-FD.html</resource>
+             </article>
+             <article id="51">
+                     <type>Youtube Video</type>
+                     <name>The 2019 Frontend Developer Crash Course - HTML and CSS Tutorial for Beginners</name>
+                     <speaker>Gary Simon</speaker>
+                     <publisher>DesignCourse Youtube Channel</publisher>
+                     <publication_date>16.01.2019</publication_date>
+                     <review>Initially, we're going to take 20 minutes to discuss the conceptual elements as it pertains to frontend development, including understanding the terminology and structure of HTML, CSS and
+ some JavaScript. Then, we spend the rest of the course taking the UI design mockup that we created in the UI Design Crash Course (linked below) and make it a reality in the browser by 
+writing HTML and CSS from scratch! By the end of the course, you will:"Understand the basics of HTML","Understand the basics of CSS","Write HTML and CSS to make a static mockup work in the 
+browser","Understand Responsive Web Design" and much more.</review>
+                     <resource>https://www.youtube.com/watch?v=8gNrZ4lAnAw</resource>
+                     <embed_resource>https://www.youtube.com/embed/8gNrZ4lAnAw</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Protocols">
+             <article id="52">
+                     <type>Article</type>
+                     <name>The Web Communication Protocols</name>
+                     <publisher>www.eyerys.com</publisher>
+                     <review>Most of the time, people browse the internet by using a web browser. A web browser is a software application for retrieving, presenting, and traversing information resources on the World 
+Wide Web.Web communication protocols are technology used to transfer information across the internet. For example, a web browser uses these protocols to request information from a web 
+server, which is then displayed on the browser screen in the form of text and images. The degree to which users can interact with that information depends on the protocol.</review>
+                     <resource>https://www.eyerys.com/articles/web-communication-protocols</resource>
+             </article>
+             <article id="53">
+                     <type>Tutorial</type>
+                     <name>Internet Protocols</name>
+                     <publisher>www.tutorialspoint.com</publisher>
+                     <review>In this article we will discouss about the types of protocols .Below are some of web communication protocols used today:"HyperText Transfer Protocol (HTTP)","Internet Protocol (IP)",
+"User Datagram Protocol (UDP)","File Transfer Protocol (FTP)","Trivial File Transfer Protocol (TFTP)".</review>
+                     <resource>https://www.tutorialspoint.com/internet_technologies/internet_protocols.htm</resource>
+             </article>
+             <article id="54">
+                     <type>Youtube Video</type>
+                     <name>Network Protocols and the Internet</name>
+                     <publisher>Micrium Inc. Youtube Channel</publisher>
+                     <publication_date>27.01.2015</publication_date>
+                     <review>In this video we will discouss about the types of protocols.
+                     This is very helpfull for the people who want to know which of the protocols stand behind a web application and how it works.</review>
+                     <resource>https://www.youtube.com/watch?v=zveRq0wCSKM</resource>
+                     <embed_resource>https://www.youtube.com/embed/zveRq0wCSKM</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+  <domain category="Operating Systems">
+        <subdomain category="Windows">
+            <article id="55">
+                     <type>Article</type>
+                     <name>MICROSOFT WINDOWS OPERATING SYSTEM</name>
+                     <authors>OLUSANYA O.O., OGUNBANWO A.S., USMAN O.L., ODULAJA G.O.</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>October 2016</publication_date>
+                     <review>All computers and computer like devices have operating systems, including your laptop, tablet, desktop, Smartphone, smart watch, router etc.  Windows  is  operating  system  from  
+Microsoft  Inc.  It  is  a  system program  that  controls, coordinates and manipulates overall desktop publishing operations. It serves as an interface between  the  hardware  and
+  other  software  on  the  computer  system.  It  allocates  memory locations to data and other computer programs. It controls other computer resources like files and programs, 
+input/output devices, computer memories etc during data processing operations. It also performs the hardware and software diagnosis to detect faults and errors.</review>
+                     <resource>https://www.researchgate.net/publication/317182647_MICROSOFT_WINDOWS_OPERATING_SYSTEM</resource>
+             </article>
+             <article id="56">
+                     <type>Article</type>
+                     <name>Windows 10</name>
+                     <authors>Shameek Mukhopadhyay, Digbijay Guha, Sayak Konar, Juin Banerjee</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>September 2015</publication_date>
+                     <review>Windows 10 is the newly released personal computer operating system from Microsoft Inc. The users who were using Windows 7, Windows 8 or Windows 8.1 have a chance to upgrade their
+ OS to Windows 10 full free version in the first year after launch. With the launch of Windows 10, it embraces all the new released Windows phone and Windows tablet. While Windows 8 tried
+ to unify the tablet and desktop experiences, Windows 10 tries to separate it. This is most evident by having to actually activate a “tablet mode.” Windows 10 has a lot of similarity with
+ Windows 7. Windows 10 combines the strengths of its two predecessors Windows 7 and Windows 8.</review>
+                     <resource>https://www.researchgate.net/publication/284484799_Windows_10</resource>
+             </article>
+             <article id="57">
+                     <type>Youtube Video</type>
+                     <name>Deploying and managing Windows Information Protection - BRK3011</name>
+                     <publisher>Microsoft Ignite Youtube Channel</publisher>
+                     <publication_date>05.10.2018</publication_date>
+                     <review>Hear best practices and see a demonstration of how to deploy and maintain Windows Information Protection (WIP), the mobile application management (MAM) mechanism for Windows. We also
+ discuss how WIP relates to other Microsoft information protection technologies like AIP and OIP.</review>
+                     <resource>https://www.youtube.com/watch?v=2QnRzd9ZrIg</resource>
+                     <embed_resource>https://www.youtube.com/embed/2QnRzd9ZrIg</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="MacOS">
+             <article id="58">
+                     <type>Article</type>
+                     <name>Mac OS</name>
+                     <authors>The Editors of Encyclopaedia Britannica See Article History</authors>
+                     <publisher>www.britannica.com</publisher>
+                     <review>In this article we will find information about MacOS. Mac OS, operating system (OS) developed by the American computer company Apple Inc. The OS was introduced in 1984 to run the company’s
+Macintosh line of personal computers (PCs). The Macintosh heralded the era of graphical user interface (GUI) systems, and it inspired Microsoft Corporation to develop its own GUI, the Windows OS.</review>
+                     <resource>https://www.britannica.com/technology/Mac-OS</resource>
+             </article>
+             <article id="59">
+                     <type>Article</type>
+                     <name>Mac OS History</name>
+                     <publisher>history-computer.com</publisher>
+                     <review>This article presents us about the history of MacOS.
+                     "The first version","The primary software architect","The original System Software" are just some of the topics discussed here.</review>
+                     <resource>https://history-computer.com/ModernComputer/Software/MacOS.html</resource>
+             </article>
+             <article id="60">
+                     <type>Youtube Video</type>
+                     <name>Everything New in macOS Mojave</name>
+                     <publisher>MacRumors Youtube Channel</publisher>
+                     <publication_date>24.09.2018</publication_date>
+                     <review>In this video we will see how Apple has officially released its next iteration of macOS, macOS Mojave, and in this video we're going to go over some of the key features users can expect 
+to see in the latest version of macOS.</review>
+                     <resource>https://www.youtube.com/watch?v=bkFOgV9JWdk</resource>
+                     <embed_resource>https://www.youtube.com/embed/bkFOgV9JWdk</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Linux">
+             <article id="61">
+                     <type>Article</type>
+                     <name>Linux operating system</name>
+                     <publisher>searchdatacenter.techtarget.com</publisher>
+                     <publication_date>December 2016</publication_date>
+                     <review>This article contains information about Linux.Linux is a Unix-like, open source and community-developed operating system for computers, servers, mainframes, mobile devices and embedded 
+devices. It is supported on almost every major computer platform including x86, ARM and SPARC, making it one of the most widely supported operating systems.</review>
+                     <resource>https://searchdatacenter.techtarget.com/definition/Linux-operating-system</resource>
+             </article>
+             <article id="62">
+                     <type>Tutorial</type>
+                     <name>Introduction to the Linux Operating System</name>
+                     <publisher>www.guru99.com</publisher>
+                     <review>In this article we have information about Linux. Linux is an operating system or a kernel. 
+                     It is distributed under an open source license. Its functionality list is quite like UNIX.</review>
+                     <resource>https://www.guru99.com/introduction-linux.html</resource>
+             </article>
+             <article id="63">
+                     <type>Youtube Channel</type>
+                     <name>Introduction to Linux and Basic Linux Commands for Beginners</name>
+                     <publisher>sakitech Youtube Channel</publisher>
+                     <publication_date>25.08.2013</publication_date>
+                     <review>In this tutorial we will give you a quick introduction to linux and linux commands for aspiring linux students.Contents of this Course:"Introduction to Linux","Quick Overview of Linux
+Distributions or Distros, such as Debian or Ubuntu","Using the Linux Terminal" and "Basic Linux commands for navigation and file manipulation".</review>
+                     <resource>https://www.youtube.com/watch?v=IVquJh3DXUA</resource>
+                     <embed_resource>https://www.youtube.com/embed/IVquJh3DXUA</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="Android">
+             <article id="64">
+                     <type>Article</type>
+                     <name>What Everybody Ought to Know About Android : Introduction, Features and Applications</name>
+                     <publisher>www.elprocus.com</publisher>
+                     <review>This article contains information about Android.Android is a Linux based operating system it is designed primarily for touch screen mobile devices such as smart phones and tablet
+ computers. The operating system have developed a lot in last 15 years starting from black and white phones to recent smart phones or mini computers. One of the most widely used mobile
+ OS   these days is android.  The android is software that was founded in Palo Alto of California in 2003.</review>
+                     <resource>https://www.elprocus.com/what-is-android-introduction-features-applications/</resource>
+             </article>
+             <article id="65">
+                     <type>Article</type>
+                     <name>Android Operating System: Architecture, Security Challenges and Solutions</name>
+                     <authors>Ahamed Shibly</authors>
+                     <publisher>Researchgate</publisher>
+                     <publication_date>March 2016</publication_date>
+                     <review>Introduction As smart phones and tablets become more popular, the  operating systems  for  those  devices  become more important. Android is such an operating system for low powered
+ devices that run on battery and are  full  of  hardware  like  Global  Positioning  System  (GPS)  receivers,  cameras,  light  and  orientation sensors,  Wi-Fi  and  UMTS (3G telephony) 
+connectivity and a  touch  screen. Like all operating systems, Android enables  applications to make  use of the  hardware features through abstraction and  provide a defined environment 
+for applications.</review>
+                     <resource>https://www.researchgate.net/publication/299394606_Android_Operating_System_Architecture_Security_Challenges_and_Solutions</resource>
+             </article>
+             <article id="66">
+                     <type>Youtube Video</type>
+                     <name>The History of Android - Versions, Features and Origins</name>
+                     <publisher>Android Authority Youtube Channel</publisher>
+                     <publication_date>26.09.2017</publication_date>
+                     <review>Everyone knows Google's origin story, but how many know Android was originally designed for digital cameras? Discover the origin, names, versions and features as Lanh walks you through 
+the history of Android.Thus this video will answer all of your questions related to this topic.</review>
+                     <resource>https://www.youtube.com/watch?v=ChkZkYIePfY</resource>
+                     <embed_resource>https://www.youtube.com/embed/ChkZkYIePfY</embed_resource>
+             </article>
+        </subdomain>
+        <subdomain category="iOS">
+             <article id="67">
+                     <type>Article</type>
+                     <name>What Is the iPhone OS (iOS)?</name>
+                     <authors>Daniel Nations</authors>
+                     <publisher>www.lifewire.com</publisher>
+                     <publication_date>April 11, 2019</publication_date>
+                     <review>This article brings us information about "iOS" and more exactely it will response to the questions:"What Is an Operating System?","Can You Multitask in IOS?","How Much Does iOS Cost? 
+How Often Is It Updated?","Should I Update My Device With Each Minor Release","How to Update Your Device to the Newest Version of iOS".</review>
+                     <resource>https://www.lifewire.com/what-is-ios-1994355</resource>
+             </article>
+             <article id="68">
+                     <type>Presentation</type>
+                     <name>INTRODUCTION TO IOS</name>
+                     <authors>Kenneth M. Anderson</authors>
+                     <publisher>www.cs.colorado.edu</publisher>
+                     <publication_date>22.02.2011</publication_date>
+                     <review>Goals of the Lecture are:"Present an introduction to iOS Program","Coverage of the language will be INCOMPLETE" and We’ll see the basics… there is a lot more to learn.</review>
+                     <embed_resource>resources/13_introtoios.pdf</embed_resource>
+             </article>
+             <article id="69">
+                     <type>Youtube Video</type>
+                     <name>History of iOS</name>
+                     <publisher>Apple Explained Youtube Channel</publisher>
+                     <publication_date>14.09.2018</publication_date>
+                     <review>iOS is a mobile operating system that Apple created for use on their iPhone, iPod touch and iPad. Now iOS is one of the world's most popular mobile operating systems despite only 
+running on Apple’s own hardware. Compare this to the Android mobile operating system, which is licensed by Google to various hardware manufacturers and wireless carriers. Now the debate
+ over which approach is better is a topic we’re not getting into today, because in this video, we’re going to focus on the history of iOS and its development from 2007 to 2018.</review>
+                     <resource>https://www.youtube.com/watch?v=T9hTyN6k7ac</resource>
+                     <embed_resource>https://www.youtube.com/embed/T9hTyN6k7ac</embed_resource>
+             </article>
+        </subdomain>
+  </domain>
+</CCS>
