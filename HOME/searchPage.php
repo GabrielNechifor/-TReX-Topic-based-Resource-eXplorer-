@@ -48,7 +48,7 @@ if(isset($_GET['check'])){$aidi = $_GET['check'];}
         </ul>
 				</nav>
           <article>
-    <section >
+    <section>
         <ul  class="list">
         <?php
             $xml = new XMLReader();
