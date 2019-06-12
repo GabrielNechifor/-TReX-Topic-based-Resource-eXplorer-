@@ -62,6 +62,7 @@ while($row = $result->fetch_assoc()){
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <ul>
 	<?php
+	if($output!='<a href="log_in_google/"><button class="buttons">Log in</button></a>'){
 	  $recommendation=getRecomandation($matrix,$userId);
 			foreach($recommendation as $key=>$value){
 				$sql="SELECT name FROM resources WHERE id={$key}";
@@ -70,13 +71,15 @@ while($row = $result->fetch_assoc()){
 						echo "<li><a href=\"../HOME/searchPage.php?check={$key}\">".$row['name']."</a></li>";
 			}
 		}
+		echo "</ul>
+		</div>
+		<div>
+		<button class='openbtn' onclick='openNav()'><Strong>Recommendations</Strong></button>  
+		</div>";
+	}
 	?>
-        
-      </ul>
-    </div>
-    <div>
-    <button class="openbtn" onclick="openNav()"><Strong>Recommendations</Strong></button>  
-    </div>
+       
+    
     <script>
     function openNav() {
       document.getElementById("mySidepanel").style.width = "300px";

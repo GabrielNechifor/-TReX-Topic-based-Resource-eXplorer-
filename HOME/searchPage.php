@@ -47,7 +47,7 @@ if(isset($_GET['check'])){$aidi = $_GET['check'];}
         </ul>
 				</nav>
           <article>
-               <?php include 'search.php'; ?>
+               
 
     <section >
         <ul  class="list">
