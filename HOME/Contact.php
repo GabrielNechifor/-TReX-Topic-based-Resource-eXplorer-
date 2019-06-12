@@ -10,7 +10,7 @@ include 'bookmarks.php';
 <html lang="en" dir="ltr" >
   <head>
     <meta charset="utf-8">
-		<title>Acasa</title>
+		<title>Contact</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" />
     <link href="style2.css" rel="stylesheet" />
@@ -41,41 +41,23 @@ include 'bookmarks.php';
         </ul>
 				</nav>
     <div class="subtitlu">
-      <i class="far fa-id-card"></i><strong> Profile Information</strong>
+      <i class="far fa-id-card"></i><strong> Contact</strong>
     </div>
-    <div id="Shape_user">
-    <ul>
-      
-      <li><img class="img_user" src=<?php echo $userData['picture'];?> alt="Poza cu mine"></li>
-      <li>
-        <table id='tableUser'>
-          <tr> 
-              <td><i class="fas fa-user-tie">First Name</i></td>
-              <td> <?php echo $userData['first_name'];?> </td>
-          </tr>
-          <tr>
-              <td><i class="fas fa-user-tie">Last Name</i></td>
-              <td><?php echo $userData['last_name']; ?></td>
-          </tr>
-          <tr>
-              <td><i class="fas fa-envelope-open">Email</i></td>
-              <td><?php echo $userData['email']; ?></td>
-          </tr>
-              <td><i class='fa fa-bookmark'>Bookmarks</i></td>
-              <td>
-                <?php
-                  $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
-                  $result = $conn->query($sql);
-                  while($row = $result->fetch_assoc()){
-                    $id=$row['id'];
-                  }
-                  getBookmarks($conn, $id);?>
-              </td>
-          </tr>
-        </table>
-      </li>
-    </ul>    
-  </div>
+    <article>
+       <section class="div_form">
+        <form>
+                <br><br>
+                <div class="div_title">ANDRONIC N.S. IOANA-ANDRA - andraandronic61@yahoo.com</div>
+                <br><br>
+                <div class="div_title">BUIMESTRU O. ALEXANDRU - saniok34dh@gmail.com</div>
+                <br><br>
+                <div class="div_title">CALANCEA V. BIANCA-FELICIA - calancea.bianca15@gmail.com</div>
+                <br><br>
+                <div class="div_title">NECHIFOR G. GABRIEL-DANIEL - gabriel.nechifor98@gmail.com</div>
+                <br><br>
+            </form>
+          </section>
+    </article>
   <br>
   <footer> Copyright &copy; Faculty of Computer Science, group A7</footer>
 </body>

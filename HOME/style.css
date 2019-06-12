@@ -198,17 +198,17 @@ a{
 	width: 300px;
 	padding: 10px;
 	margin: auto;
-	text-align: center;
+	text-align: left;
 }
 
 .div_form{
 	border-radius: 5px;
-	padding: 20px;
-	width: 300px;
-	margin: auto;
+  margin: auto;
+  border-block-color: green;
 }
 
 .div_title{
+  padding: 20px;
 	font: italic bold 30px Georgia, serif;
 }
 
