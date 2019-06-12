@@ -4,6 +4,7 @@ include_once 'log_in_buttons.php'
 <?php 
 include 'dba.inc.php';
 include 'bookmarks.php';
+include 'tags.inc.php';
 $query= $conn->query("SELECT resourceId, AVG(nota) as rating from recomandari GROUP BY resourceId");
 $note=[];
 while($row=$query->fetch_object()){
@@ -90,6 +91,8 @@ while($row=$query->fetch_object()){
                                
                             
                                 echo "<p id=\"obliqueFont\">".($xml->value)."</p>";
+                                
+                                getTags($conn,$id);
                                 
                                 echo "
                                     <i class='fa fa-star colorated fa-2x' style='float:right'></i>

@@ -18,7 +18,7 @@ function getTags($conn,$id){
      where tags.resourceId={$id}";
     $result = $conn->query($sql);
     while( $row = $result->fetch_assoc()){
-        echo $row['name'].",";
+        echo "<button>".$row['name']."</button>";
     
     }
 }
