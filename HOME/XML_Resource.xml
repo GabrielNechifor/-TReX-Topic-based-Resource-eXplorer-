@@ -2,6 +2,22 @@
 <CCS>
   <domain category="Algorithmics">
         <subdomain category="Algorithm design">
+             <article id="70">
+                     <type>Tutorial</type>
+                     <name>MapReduce Algorithm Design</name>
+                     <authors>Jimmy Lin</authors>
+                     <publisher> SlideShare</publisher>
+                     <publication_date>May 13, 2013</publication_date>
+                     <review>MapReduce algorithm design; The execution framework handles “everything else”; 
+                     Scheduling: assigns workers to map and reduce tasks; “Data distribution”: moves processes to data; 
+                     Synchronization: gathers, sorts, and shufﬂes intermediate data;
+                     Errors and faults: detects worker failures and restarta; Limited control over data and execution ﬂow; 
+                     All algorithms must expressed in m, r, c, p; You don’t know: Where mappers and reducers run; 
+                     When a mapper or reducer begins or ﬁnishes; Which input a particular mapper is processing; 
+                     Which intermediate key a particular reducer is processing.</review>
+                     <resource>https://www.slideshare.net/Culturadigital/mapreduce-algorithm-design</resource>
+                     <embed_resource>http://www.slideshare.net/slideshow/embed_code/key/BG9JcWz5cbHfFV</embed_resource>
+             </article>
              <article id="1">
                      <type>PDF Book</type>
                      <name>Algorithm Design</name>
@@ -55,6 +71,16 @@ the ratio of work done by a parallel algorithm to the work done by a sequential 
 We meet many open problems motivated by thei approach are listed.</review>
                      <embed_resource>resources/A COMPLEXITY THEORY OF EFFICIENT PARALLEL ALGORlTHMS.pdf</embed_resource>
              </article>
+             <article id="71">
+                    <type>Video Course</type>
+                    <name>Applying Design Thinking and Complexity Theory in Agile Organizations</name>
+                    <instructor>Jean Tabaka</instructor>
+                    <publisher>Vimeo</publisher>
+                    <publication_date>April 3, 2013</publication_date>
+                    <review>Design thinking is emerging as a way to guide organizations in how to accept mystery and move through heuristics before moving to an algorithmic view of business. Complexity theory asks us to be intentional about the systems in which we find ourselves and the transitions we must be prepared to make in and around our ordered and unordered systems. By combining these two disciplines, you can begin to balance exploration and execution in how you create and sustain Agile adoptions in your teams, groups, and organizations.</review>
+                    <resource>https://vimeo.com/68153035</resource>
+                    <embed_resource>https://player.vimeo.com/video/68153035</embed_resource>
+             </article>
              <article id="5">
                      <type>Youtube Video</type>
                      <name>Algorithmic Complexity</name>
@@ -91,6 +117,16 @@ The problem is equivalent to finding the closest lattice point to a given point 
 "Gap Problems".This is very useful for students to understand this concept.</review>
                      <embed_resource>resources/1-intro.pdf</embed_resource>
              </article>
+             <article id="72">
+                     <type>Course</type>
+                     <name>Hardness of multiple choice problems</name>
+                     <author>Aritra Banik</author>
+                     <publisher>SlideShare</publisher>
+                     <publication_date>Dec 21, 2016</publication_date>
+                     <review>Problem Statement and Motivation A New Satisﬁability Result Rainbow Minmax Gap Exact Coverage of Color Classes .. Outline ...1 Problem Statement and Motivation ...2 A New Satisﬁability Result ...3 Rainbow Minmax Gap ...4 Exact Coverage of Color Classes Aritra Banik Hardness of Multiple Choice Problems.</review>
+                     <resource>https://www.slideshare.net/cseiitgn/hardness-of-multiple-choice-problems</resource>
+                     <embed_resource>http://www.slideshare.net/slideshow/embed_code/key/kEZMspKyLp3Seg</embed_resource>
+             </article>
              <article id="8">
                      <type>PDF Lecture</type>
                      <name>Complexity and Reductions</name>
@@ -118,6 +154,16 @@ and NP-Complete -- The group of problems which are both in NP and NP-hard are kn
   </domain>
   <domain category="Software Engineering">
         <subdomain category="Software requirements">
+            <article id="73">
+                     <type>Course</type>
+                     <name>How To Review Software Requirements</name>
+                     <lecturer>Craig Brown</lecturer>
+                     <publisher>SlideShare</publisher>
+                     <publication_date> Feb 12, 2009</publication_date>
+                     <review>A guide on how to review and give feedback to business requirements documents for software projects.</review>
+                     <resource>https://www.slideshare.net/craigwbrown/how-to-review-software-requirements</resource>
+                     <embed_resource>http://www.slideshare.net/slideshow/embed_code/key/Ls8jNxhiyfpxbJ</embed_resource>
+             </article>
              <article id="10">
                      <type>Tutorial</type>
                      <name>Software Requirements</name>
@@ -137,6 +183,16 @@ of the target system. Requirements convey the expectations of users from the sof
  systematic researches and exposition on the scope and the requirements of safety analysis.</review>
                      <embed_resource>resources/1-s2.0-S1877705814011643-main.pdf</embed_resource>
              </article>
+             <article id="79">
+                     <type>Video Presentation</type>
+                     <name>Scaling Agile Requirements: User Stories to Agile Portfolio Management</name>
+                     <speaker>Drew Jemilo</speaker>
+                     <publisher>Vimeo</publisher>
+                     <publication_date>May 20, 2012</publication_date>
+                     <review>In this webinar, Drew Jemilo takes you further into the SAFe Enterprise Backlog Model. With more projects starting under Agile than Waterfall, you’ll be managing requirements to quickly and efficiently align strategic business objectives and customer needs with software delivery.</review>
+                     <resource>https://vimeo.com/agilistapm/scaling-requirements</resource>
+                     <embed_resource>https://player.vimeo.com/video/42513112</embed_resource>
+             </article>
              <article id="12">
                      <type>Youtube Video</type>
                      <name>Different Types of Software Requirement - Functional, Non-Functional - SE</name>
@@ -147,7 +203,6 @@ of the target system. Requirements convey the expectations of users from the sof
                      <resource>https://www.youtube.com/watch?v=QhJSlFWFICMfbclid=IwAR3IsbK9J6ixbOhtafuwI472AHT6ZG9144KuXTVGzLLmU6IWg8kmPrNvdf0</resource>
                      <embed_resource>https://www.youtube.com/embed/QhJSlFWFICM</embed_resource>
              </article>
-
         </subdomain>
         <subdomain category="Software design">
              <article id="13">
@@ -219,6 +274,16 @@ that have occurred since it was published.</review>
              </article>
         </subdomain>
         <subdomain category="Software testing">
+             <article id="74">
+                     <type>Video Tutorial</type>
+                     <name>How Google Tests Software</name>
+                     <speaker>James Whittaker</speaker>
+                     <publisher>Vimeo</publisher>
+                     <publication_date>August 21, 2012</publication_date>
+                     <review>James Whittaker, Test Director of Google and Thought Leader, shares his thoughts on how the world of software testing is changing and how Google is moving forward adopting change. The webcast will also share how Google achieves high quality in a developer-centric company where the developer-to-tester ratio is incredibly lopsided and explores how Google executes with a test organization that is independent of product teams.</review>
+                     <resource>https://vimeo.com/47959189</resource>
+                     <embed_resource>https://player.vimeo.com/video/47959189</embed_resource>
+             </article>
              <article id="19">
                      <type>Tutorial</type>
                      <name>Software Testing Tutorial: Free Course</name>
@@ -249,6 +314,16 @@ that no one knew about when Myers wrote the first edition: Web programming, e-co
              </article>
         </subdomain>
         <subdomain category="Software maintenance">
+            <article id="75">
+                     <type>Presentation</type>
+                     <name>Software maintenance</name>
+                     <speaker>Ameer Hasan Malik</speaker>
+                     <publisher>SlideShare</publisher>
+                     <publication_date>Dec 3, 2014</publication_date>
+                     <review>Introduction: Software maintenance is the modification of a software product after delivery to correct faults, to improve performance or other attributes. A common perception of maintenance is that it merely involves fixing defects. Software maintenance is the general process of changing a system after it has been delivered.</review>
+                     <resource>https://www.slideshare.net/ameerhasanmalik/software-maintenance-42292890</resource>
+                     <embed_resource>https://www.slideshare.net/slideshow/embed_code/key/EDmY8ek4aj1pRm</embed_resource>
+             </article>
              <article id="22">
                      <type>Tutorial</type>
                      <name>Software Maintenance Overview</name>
@@ -291,6 +366,16 @@ in an hierarchical topic framework,provide a list of references that addresses t
 and  provide a list of further readings and supplementary references that also address topics in this knowledge area.</review>
                      <embed_resource>resources/c45a7d169ca507329d4b2f028862c20b02c3.pdf</embed_resource>
              </article>
+             <article id="76">
+                     <type>Presentation</type>
+                     <name>Software project management</name>
+                     <authors>Rajendra Akerkar</authors>
+                     <publisher>SlideShare</publisher>
+                     <publication_date>Sep 6, 2011</publication_date>
+                     <review> Introduction: Many software projects fail: due to faulty project management practices: It is important to learn different aspects of software project management.</review>
+                     <resource>https://www.slideshare.net/RajendraAkerkar/software-project-management-9146521</resource>
+                     <embed_resource>https://www.slideshare.net/slideshow/embed_code/key/8BAzGzpWU6vDNR</embed_resource>
+             </article>
              <article id="26">
                      <type>Article</type>
                      <name>What software engineering management is like</name>
@@ -315,6 +400,28 @@ So we should  learn from his words, because it is a big advantage for our future
   </domain>
   <domain category="Programming Paradigms">
         <subdomain category="Functional Programming">
+             <article id="77">
+                     <type>Presentation</type>
+                     <name>The present and the future of functional programming in c++</name>
+                     <authors>Alexander Granin</authors>
+                     <publisher>SlideShare</publisher>
+                     <publication_date>May 12, 2019</publication_date>
+                     <review>This presentation talks about Functional Programming in C++ and Declarative Design in С++ Siberia 2015 Functional Microscope: Lenses in С++ Russia 2016 Functional “Life”: Parallel Cellular Automata and Comonads in C++.</review>
+                     <resource>https://www.slideshare.net/alexandrgranin/the-present-and-the-future-of-functional-programming-in-c-145129631</resource>
+                     <embed_resource>https://www.slideshare.net/slideshow/embed_code/key/eks5KpndsYsTdF</embed_resource>
+             </article>
+             <article id="78">
+                     <type>Video Presentation</type>
+                     <name>Functional programming design patterns</name>
+                     <authors>Scott Wlaschin</authors>
+                     <publisher>Vimeo</publisher>
+                     <publication_date>December 4, 2014</publication_date>
+                     <review>In object-oriented development, we are all familiar with design patterns such as the Strategy pattern and Decorator pattern, and design principles such as SOLID.
+                             The functional programming community has design patterns and principles as well.
+                             This talk will provide an overview of some of these, and present some demonstrations of FP design in practice.</review>
+                     <resource>https://vimeo.com/113588389</resource>
+                     <embed_resource>https://player.vimeo.com/video/113588389</embed_resource>
+             </article>
              <article id="28">
                      <type>Tutorial</type>
                      <name>Functional Programming - Introduction</name>

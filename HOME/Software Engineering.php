@@ -17,20 +17,21 @@ include_once 'log_in_buttons.php'
           <div class="move_buttons">
           <?php echo $output; ?>
           </div>
-      </header>
-		<nav class="nav">
+        </header>
+      <nav id="nav">
 				<ul>
-            <li>
-              <a>
-              <i class="fas fa-bars fa-2x"></i>
-            </a>
-            </li>
-            <li><a href="index.php"><Strong>Home</Strong></a></li>
-            <li><a href="#contact"><Strong>Contact</Strong></a></li>
-<li style="float:right">   <form action="searchPage.php" method="post">
-        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
-</form>  </li>        </ul>
-			</nav>
+				<li>
+					<a href="index.php">
+					<i class="fas fa-bars"></i>
+				</a>
+				</li>
+					 <li><a href="index.php"><Strong>Home</Strong></a></li>
+					<li><a href="#contact"><Strong>Contact</Strong></a></li>
+              <li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
+</form>  </li>
+        </ul>
+				</nav>
 <article>
   <section>
  <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Software Engineering.php">Software Engineering</a></strong></div>

@@ -37,24 +37,19 @@ while($row=$query->fetch_object()){
 
 
   <nav id="nav">
-      <ul>
-      <li>
-        <a>
-        <span>
-          <svg width="30" height="30">
-            <path d="M0,5 30,5" stroke="#fff" stroke-width="2"/>
-            <path d="M0,14 30,14" stroke="#fff" stroke-width="2"/>
-            <path d="M0,23 30,23" stroke="#fff" stroke-width="2"/>
-          </svg>
-        </span>
-      </a>
-      </li>
-        <li><a href="index.php"><Strong>Home</Strong></a></li>
-        <li><a href="#contact"><Strong>Contact</Strong></a></li>
-<li style="float:right">   <form action="searchPage.php" method="post">
-        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
-</form>  </li>      </ul>
-      </nav>
+				<ul>
+				<li>
+					<a href="index.php">
+					<i class="fas fa-bars"></i>
+				</a>
+				</li>
+					 <li><a href="index.php"><Strong>Home</Strong></a></li>
+					<li><a href="#contact"><Strong>Contact</Strong></a></li>
+              <li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
+</form>  </li>
+        </ul>
+				</nav>
 
  <?php if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
                      if(isset($_GET['domain'])){ $dmn = $_GET['domain']; }

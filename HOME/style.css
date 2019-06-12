@@ -27,8 +27,17 @@ img.logo{
   display: inline-block;
 }
 
+/*.nav {
+  display: block;
+  }
+.nav a{
+ color: red;
+  border-right: 3px solid #F8F8F8 ;
+  padding: 14px 20px 14px 20px;
+}*/
+
 #nav{
-	bottom:#FFFFFF 7px solid;
+	bottom:#FFFFFF 9px solid;
 	width:100%;
 	margin:0 auto;
 	height:auto;
@@ -40,11 +49,11 @@ img.logo{
   padding: 0;
   overflow:hidden;
   background-color: #272323;
-  height:auto;
+  height:48px;
   }
   
 #nav ul li{
-	float: left;
+  display: inline-block;
   border-right: 3px solid #F8F8F8 ;
   padding: 14px 20px 14px 20px;
 	}
@@ -55,7 +64,7 @@ img.logo{
   color: white;
   text-align: center;
   text-decoration: none;
-  height: 20px;
+  height:auto;
 }
 
 #nav ul li a:active{
