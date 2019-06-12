@@ -3,6 +3,7 @@ include_once 'log_in_buttons.php'
 ?>
 <?php 
 include 'dba.inc.php';
+include 'bookmarks.php';
 $query= $conn->query("SELECT resourceId, AVG(nota) as rating from recomandari GROUP BY resourceId");
 $note=[];
 while($row=$query->fetch_object()){
@@ -46,8 +47,9 @@ while($row=$query->fetch_object()){
 				</li>
 				<li><a href="Acasa.php"><Strong>Home</Strong></a></li>
 				<li><a href="#contact"><Strong>Contact</Strong></a></li>
-				<li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
-            </ul>
+<li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
+</form>  </li>            </ul>
 		</nav>
 
 
@@ -84,17 +86,25 @@ while($row=$query->fetch_object()){
                             } 
                             if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'review'){
                                 $xml->read();
+
                                 $rate=0;
                                 foreach($note as $nota){
                                     if($nota->resourceId==$id)
                                     $rate=$nota->rating;
                                 }
+                               
+                                $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
+                                $result = $conn->query($sql);
+                                while($row = $result->fetch_assoc()){
+                                $userId=$row['id'];
+                            }
                                 echo "<p id=\"obliqueFont\">".($xml->value)."</p>";
                                 
-                                echo "
-                                <i class='fa fa-bookmark fa-2x'></i>
-                                <i class='fa fa-star colorated fa-2x' style='float:right'></i>
-                                <p style='float:right'>Rating:".round($rate,2)." / 5</p></li>";  
+                                echo "<i class='fa fa-star colorated fa-2x' style='float:right'></i>
+                                      <p style='float:right'>Rating:".round($rate,2)." / 5</p><br><br></li>
+                                    ";
+                            
+                                  
                                 
                             }           
                     }

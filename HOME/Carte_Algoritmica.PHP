@@ -6,6 +6,7 @@ date_default_timezone_set('Europe/Copenhagen');
 include 'dba.inc.php';
 include 'comments.inc.php';
 include 'rate.php';
+include 'bookmarks.php';
 ?>
 
 <?php 
@@ -50,8 +51,9 @@ while($row=$query->fetch_object()){
       </li>
         <li><a href="index.php"><Strong>Home</Strong></a></li>
         <li><a href="#contact"><Strong>Contact</Strong></a></li>
-        <li style="float:right"><a><input type="text"  placeholder="Search in page..." id="InputSearch" ></a></li>
-      </ul>
+<li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="type somthing ..." id="InputSearch" />
+</form>  </li>      </ul>
       </nav>
 
  <?php if(isset($_GET['subdomain'])){ $subdmn = $_GET['subdomain']; } 
@@ -68,43 +70,48 @@ while($row=$query->fetch_object()){
         foreach($note as $nota){
             if($nota->resourceId==$id)
             $rate=$nota->rating;
-        }?>
-        
+        }
+        $sql="SELECT id from users where oauth_uid={$userData['oauth_uid']}";
+            $result = $conn->query($sql);
+            while($row = $result->fetch_assoc()){
+            $userId=$row['id'];
+                            }?>
+       
+       <?php 
+        $sql="SELECT userId, resourceId from bookmarks where userId={$userId} and resourceId={$id} ";
+        $result = $conn->query($sql);
+        if(!$result->fetch_assoc()){
+        echo "<form method='POST' action='".setBookmarks($conn,$id)."'>
+            <input type='hidden' name='userId' value='".$userId."'>
+            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Add bookmark</i></button></form>";
+          }
+        else 
+        {echo "<form method='POST' action='".deleteBookmarks($conn,$id)."'>
+            <input type='hidden' name='userId' value='".$userId."'>
+            <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Delete bookmark</i></button></form>";}?>
         <table id="table1">
         <?php
         $xml = new XMLReader();
             $xml->open('XML_Resource.xml');
             while($xml->read()){
                 if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'article' && $xml->getAttribute('id') == $id){
-                    $youtube = 0;
                     while($xml->read() && $xml->localName != 'article'){
                             echo "<tr>";
                             if($xml->nodeType == XMLREADER::ELEMENT  && $xml->localName != '#text' && $xml->localName != 'resource' && $xml->localName != 'embed_resource'){
                                 echo "<td>".strtoupper($xml->localName)."</td>";
                                 $xml->read();
-                                echo "<td>".($xml->value)."</td>";
-                                
-                                if($xml->value == 'Youtube Video'){
-                                    $youtube = 1;
-                                }
+                                echo "<td>".($xml->value)."</td>";                                                
                             } 
                             if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'resource'){
-                                if($youtube == 0){
                                 echo "<td>".strtoupper($xml->localName)."</td>";
                                 $xml->read();                               
-                                echo "<td> <a href=\"".($xml->value)."\">here<a> </td>";
-                                }else{
-                                  $nm = $xml->localName;
-                                  $xml->read();
-                                  $lnk = $xml->value;
-                                }
+                                echo "<td> See on native source  <a href=\"".($xml->value)."\">here<a> </td>";                               
                             }
                             if($xml->nodeType == XMLREADER::ELEMENT && $xml->localName == 'embed_resource'){
                                   $xml->read();
-                                 echo "<td>".strtoupper($nm)."</td>";
-                                 echo "<td> <div class=\"iframe-container\"> <iframe width=\"560\" height=\"315\" src=\"".($xml->value)."\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe> </div>";
-                                   echo "<br> See video on Youtube <a href=\"".$lnk."\">here<a> </td>";
-                            }
+                                 echo "<td>".strtoupper("Content")."</td>";
+                                 echo "<td> <div class=\"iframe-container\"> <iframe width=\"560\" height=\"315\" src=\"".($xml->value)."\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe> </div> </td>";
+                            }         
                             echo "</tr>";           
                     }
                 }
@@ -115,15 +122,15 @@ while($row=$query->fetch_object()){
            </section>
         </article>
 
-        
+       
         <h2 align='center'>Rating Section:
-        <?php echo  round($rate,2)." / 5
-                                    <i class='fa fa-star colorated fa-2x'></i>";?></h2>
+        <?php echo  round($rate,2)." / 5<i class='fa fa-star colorated fa-2x'></i>";?>
+        </h2>
         
 
         <?php echo "<form method='POST' action='".setRating($conn)."'>";?>
         <?php echo "<input type='hidden' name='resourceId' value='".$id."'>
-                  <input type='hidden' name='userId' value='1'>
+                    <input type='hidden' name='userId' value='1'>
         <table align='center' class='rateTable'>
         <tr>
         <td>
