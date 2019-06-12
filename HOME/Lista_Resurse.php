@@ -95,8 +95,7 @@ while($row=$query->fetch_object()){
                                 
                                 getTags($conn,$id);
                                 
-                                echo "
-                                    <i class='fa fa-star colorated fa-2x' style='float:right'></i>
+                                echo "<i class='fa fa-star colorated fa-2x' style='float:right'></i>
                                       <p style='float:right'>Rating:".round($rate,2)." / 5</p><br><br></li>
                                     ";
                             

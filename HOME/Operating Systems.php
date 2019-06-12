@@ -33,7 +33,7 @@ include_once 'log_in_buttons.php'
         </ul>
 				</nav>
   <section>
-  <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Operating System.php">Operating Systems</a></strong></div>
+  <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Operating Systems.php">Operating Systems</a></strong></div>
   </section>
   <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
