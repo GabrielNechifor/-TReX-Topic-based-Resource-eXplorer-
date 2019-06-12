@@ -6,8 +6,8 @@ include_once 'log_in_buttons.php'
   <head>
     <meta charset="utf-8">
     <title>Programing Paradigms</title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="style22.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
   </head>
 

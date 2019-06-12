@@ -7,8 +7,8 @@ include_once 'log_in_buttons.php'
   <head>
     <meta charset="utf-8">
     <title>Algorithmics</title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="style22.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
   </head>
   <body>
@@ -38,6 +38,7 @@ include_once 'log_in_buttons.php'
   </section>
   <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
     <div id="mySidepanel" class="sidepanel">
+      
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
       <ul>
         <li><a class="active" href="Algorithmics.php">Algorithmics</a></li>

@@ -6,8 +6,8 @@ include_once 'log_in_buttons.php'
   <head>
     <meta charset="utf-8">
     <title>Software Engineering</title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="style22.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -17,50 +17,52 @@ include_once 'log_in_buttons.php'
           <div class="move_buttons">
           <?php echo $output; ?>
           </div>
-        </header>
+      </header>
       <nav id="nav">
 				<ul>
-				<li>
-					<a href="index.php">
-					<i class="fas fa-bars"></i>
-				</a>
-				</li>
-					 <li><a href="index.php"><Strong>Home</Strong></a></li>
+          <li>
+            <a href="index.php"><i class="fas fa-bars"></i></a>
+          </li>
+					<li><a href="index.php"><Strong>Home</Strong></a></li>
 					<li><a href="#contact"><Strong>Contact</Strong></a></li>
-              <li style="float:right">   <form action="searchPage.php" method="post">
-        <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
-</form>  </li>
+          <li style="float:right">
+          <form action="searchPage.php" method="post">
+            <input type="text" name="search" placeholder="Search in page ..." id="InputSearch"/>
+            </form>  
+          </li>
         </ul>
-				</nav>
-<article>
-  <section>
- <div class="subtitlu" align="center"><strong><a href="index.php">CCS</a> -> <a href="Software Engineering.php">Software Engineering</a></strong></div>
-</section>
-<section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
-    <div id="mySidepanel" class="sidepanel">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <ul>
-        <li><a href="Algorithmics.php">Algorithmics</a></li>
-        <li><a class="active" href="Software Engineering.php">Software Engineering</a></li>
-        <li><a href="Programming Paradigms.php">Programming Paradigm</a></li>
-        <li><a href="Information Security.php">Information Security</a></li>
-        <li><a href="Web Technologies.php">Web Technologies</a></li>
-        <li><a href="Operating Systems.php">Operating Systems</a></li>
-      </ul>
-    </div>
-    <div>
-        <button class="openbtn" onclick="openNav()"><Strong>Domains</Strong></button>  
-    </div>
-    <script>
-      function openNav() {
-        document.getElementById("mySidepanel").style.width = "300px";
-        document.getElementById("mySidepanel").style.height = "auto";
-      }
-      function closeNav() {
-        document.getElementById("mySidepanel").style.width = "0";
-      }
-    </script>
-</section>
+			</nav>
+      <article>
+        <section>
+          <div class="subtitlu" align="center">
+            <strong><a href="index.php">CCS</a> -> <a href="Software Engineering.php">Software Engineering</a></strong>
+          </div>
+        </section>
+        <section  style="display:inline-block; vertical-align: top; width: 350px; height: auto;" >
+          <div id="mySidepanel" class="sidepanel">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <ul>
+              <li><a href="Algorithmics.php">Algorithmics</a></li>
+              <li><a class="active" href="Software Engineering.php">Software Engineering</a></li>
+              <li><a href="Programming Paradigms.php">Programming Paradigm</a></li>
+              <li><a href="Information Security.php">Information Security</a></li>
+              <li><a href="Web Technologies.php">Web Technologies</a></li>
+              <li><a href="Operating Systems.php">Operating Systems</a></li>
+            </ul>
+          </div>
+          <div>
+            <button class="openbtn" onclick="openNav()"><Strong>Domains</Strong></button>  
+          </div>
+          <script>
+            function openNav() {
+              document.getElementById("mySidepanel").style.width = "300px";
+              document.getElementById("mySidepanel").style.height = "auto";
+            }
+            function closeNav() {
+              document.getElementById("mySidepanel").style.width = "0";
+            }
+          </script>
+        </section>
     <div id="container" align="center">
       <div class="box">
         <a href="Lista_Resurse.php?subdomain=Software requirements&domain=Software Engineering"><div class="boxinside">Software requirements</div></a>

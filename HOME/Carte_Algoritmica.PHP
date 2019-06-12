@@ -3,10 +3,10 @@ include_once 'log_in_buttons.php'
 ?>
 <?php
 date_default_timezone_set('Europe/Copenhagen');
-include 'dba.inc.php';
-include 'comments.inc.php';
-include 'rate.php';
-include 'bookmarks.php';
+include 'functions/dba.inc.php';
+include 'functions/comments.inc.php';
+include 'functions/rating.php';
+include 'functions/bookmarks.php';
 ?>
 
 <?php 
@@ -21,8 +21,8 @@ while($row=$query->fetch_object()){
   <head>
     <meta charset="utf-8">
     <title>Articol</title>
-    <link href="style.css" rel="stylesheet" />
-    <link href="style22.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -87,6 +87,10 @@ while($row=$query->fetch_object()){
             <input type='hidden' name='userId' value='".$userId."'>
             <button type='submit' name='bookmarkSubmit' class='buttonRate'><i class='fa fa-bookmark'>Delete bookmark</i></button></form>";
             }}?>
+
+        <h2 align='center'>Rating:
+        <?php echo  round($rate,2)." / 5<i class='fa fa-star colorated fa-2x'></i>";?>
+        </h2>
         <table id="table1">
         <?php
         $xml = new XMLReader();
@@ -121,9 +125,7 @@ while($row=$query->fetch_object()){
         </article>
 
         
-        <h2 align='center'>Rating Section:
-        <?php echo  round($rate,2)." / 5<i class='fa fa-star colorated fa-2x'></i>";?>
-        </h2>
+       
         
         
         <?php echo "<form method='POST' action='".setRating($conn)."'>";?>

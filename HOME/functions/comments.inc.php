@@ -24,10 +24,10 @@ function getComments($conn,$id){
                     <span class='tip tip-left'></span>
                       <div class='message'>
                         <span>";
-            echo "<a href='Profile.php'>".$row['first_name']." ";
-            echo $row['last_name']."</a>(";
-            echo "<i class='fa fa-calendar'></i>".$row['date'].")<br><br>";
-            echo nl2br($row['text']);   
+            echo "<b>".$row['first_name']." ";
+            echo $row['last_name']." (</b>";
+            echo "<i class='fa fa-calendar'> ".$row['date'].")</i><br>";
+            echo "<i>'".nl2br($row['text'])."'</i>";   
             echo "</span>
             </div>
           </div>

@@ -108,8 +108,6 @@ foreach($matrix as $key=>$value){
     $recomadations[$key]=getRecomandation($matrix,$key);
 }
 
-echo "<pre>";
-print_r($recomadations);
-echo "</pre>";
+
 
 ?>

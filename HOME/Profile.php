@@ -3,8 +3,8 @@ include_once 'log_in_buttons.php';
 ?>
 <?php
 date_default_timezone_set('Europe/Copenhagen');
-include 'dba.inc.php';
-include 'bookmarks.php';
+include 'functions/dba.inc.php';
+include 'functions/bookmarks.php';
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr" >
@@ -12,8 +12,8 @@ include 'bookmarks.php';
     <meta charset="utf-8">
 		<title>Acasa</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet" />
-    <link href="style2.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style2.css" rel="stylesheet" />
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 	</head>
 

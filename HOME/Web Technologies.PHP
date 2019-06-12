@@ -6,16 +6,17 @@ include_once 'log_in_buttons.php'
   <head>
     <meta charset="utf-8">
     <title>Web Technologies</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
   </head>
   <body>
-    	<header class="header">
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-          <img class="logo" src="images/lo.png" alt="">
-          <div class="move_buttons">
-          <?php echo $output; ?>
-          </div>
-        </header>
+        <header class="header">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+            <img class="logo" src="images/lo.png" alt="">
+            <div class="move_buttons">
+            <?php echo $output; ?>
+            </div>
+          </header>
       <nav id="nav">
 				<ul>
 				<li>

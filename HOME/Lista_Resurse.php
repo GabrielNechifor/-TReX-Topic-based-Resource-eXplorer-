@@ -2,8 +2,8 @@
 include_once 'log_in_buttons.php'
 ?>
 <?php 
-include 'dba.inc.php';
-include 'bookmarks.php';
+include 'functions/dba.inc.php';
+include 'functions/bookmarks.php';
 $query= $conn->query("SELECT resourceId, AVG(nota) as rating from recomandari GROUP BY resourceId");
 $note=[];
 while($row=$query->fetch_object()){
@@ -15,8 +15,8 @@ while($row=$query->fetch_object()){
   <head>
     <meta charset="utf-8">
     <title>Operating System</title>
-    <link href="style22.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+    <link href="css/style22.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
 

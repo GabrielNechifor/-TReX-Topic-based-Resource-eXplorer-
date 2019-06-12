@@ -195,7 +195,7 @@ fieldset{
     border-radius: 10px;
     width: auto;
     text-align: center;
-    margin-top: 0%;
+    margin-top: 5%;
     margin-left: -45px;
    
     font:   18px 'Courier New', Courier, monospace;
@@ -226,7 +226,7 @@ fieldset{
   .img_user{
     width:50%;
     display: inline-block;
-    border: 3px solid forestgreen ;
+    border: 15px solid #272323 ;
     margin-right:-25px;
   }
 
