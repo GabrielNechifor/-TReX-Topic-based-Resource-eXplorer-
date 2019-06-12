@@ -34,7 +34,7 @@ include 'functions/bookmarks.php';
 				</a>
 				</li>
 					 <li><a href="index.php"><Strong>Home</Strong></a></li>
-					<li><a href="#contact"><Strong>Contact</Strong></a></li>
+					<li><a href="Contact.php"><Strong>Contact</Strong></a></li>
               <li style="float:right">   <form action="searchPage.php" method="post">
         <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
 </form>  </li>

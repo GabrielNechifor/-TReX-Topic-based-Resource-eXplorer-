@@ -7,6 +7,7 @@ include 'functions/dba.inc.php';
 include 'functions/comments.inc.php';
 include 'functions/rating.php';
 include 'functions/bookmarks.php';
+include 'tags.inc.php';
 ?>
 
 <?php 
@@ -44,7 +45,7 @@ while($row=$query->fetch_object()){
 				</a>
 				</li>
 					 <li><a href="index.php"><Strong>Home</Strong></a></li>
-					<li><a href="#contact"><Strong>Contact</Strong></a></li>
+					<li><a href="Contact.php"><Strong>Contact</Strong></a></li>
               <li style="float:right">   <form action="searchPage.php" method="post">
         <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
 </form>  </li>
@@ -120,6 +121,23 @@ while($row=$query->fetch_object()){
                 
             }
         ?>
+<tr>
+  <td>
+  Tags : 
+  </td>
+  <td>
+  <?php
+  getTags($conn,$id); 
+/*echo "   
+        <form method='POST' action='".getTags($conn,$id)."'>
+        <textarea name='name'></textarea>
+        <button type='submit' name='AddTag'>AddTags</button>
+        
+        </form>";*/
+       
+
+?></td>
+</tr>
             </table>
            </section>
         </article>

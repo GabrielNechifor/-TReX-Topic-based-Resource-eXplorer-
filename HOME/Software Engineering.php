@@ -20,16 +20,19 @@ include_once 'log_in_buttons.php'
       </header>
       <nav id="nav">
 				<ul>
-          <li>
-            <a href="index.php"><i class="fas fa-bars"></i></a>
-          </li>
-					<li><a href="index.php"><Strong>Home</Strong></a></li>
-					<li><a href="#contact"><Strong>Contact</Strong></a></li>
-          <li style="float:right">
-          <form action="searchPage.php" method="post">
-            <input type="text" name="search" placeholder="Search in page ..." id="InputSearch"/>
-            </form>  
-          </li>
+          
+
+				<li>
+					<a href="index.php">
+					<i class="fas fa-bars"></i>
+				</a>
+				</li>
+					 <li><a href="index.php"><Strong>Home</Strong></a></li>
+					<li><a href="Contact.php"><Strong>Contact</Strong></a></li>
+              <li style="float:right">   <form action="searchPage.php" method="post">
+        <input type="text" name="search" placeholder="Search in page ..." id="InputSearch" />
+</form>  </li>
+
         </ul>
 			</nav>
       <article>
